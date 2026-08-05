@@ -1,57 +1,67 @@
 ---
 title: "Week 2 Worklog"
-date: 2024-01-01
+date: "2026-05-30"
 weight: 1
 chapter: false
 pre: " <b> 1.2. </b> "
 ---
-{{% notice warning %}} 
+{{% notice warning %}}
 ⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
 {{% /notice %}}
 
 
 ### Week 2 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Understand AWS identity and access management.
+* Get familiar with basic networking concepts in Amazon VPC.
+* Learn how to use Amazon S3 and deploy a static website.
+* Understand the role of Route 53 and CloudFront in content delivery.
 
 ### Tasks to be carried out this week:
 | Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 2   | - Learn AWS Identity and Access Management (IAM) <br>&emsp; + User <br>&emsp; + Group <br>&emsp; + Role <br>&emsp; + Policy <br> - **Practice:** <br>&emsp; + Create an IAM user <br>&emsp; + Grant permissions using policies | 26/05/2026 | 26/05/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 3   | - Learn Amazon Virtual Private Cloud (VPC) <br>&emsp; + CIDR <br>&emsp; + Public/Private Subnet <br>&emsp; + Internet Gateway <br>&emsp; + Route Table | 27/05/2026 | 27/05/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 4   | - Learn Amazon S3 <br>&emsp; + Bucket <br>&emsp; + Object <br>&emsp; + Bucket Policy <br> - **Practice:** <br>&emsp; + Create an S3 bucket <br>&emsp; + Upload data <br>&emsp; + Host a static website | 28/05/2026 | 28/05/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 5   | - Learn Amazon Route 53 <br> - Learn Amazon CloudFront <br> - Learn Lambda@Edge and its use cases | 29/05/2026 | 29/05/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 6   | - **Practice:** <br>&emsp; + Deploy a static website on Amazon S3 <br>&emsp; + Distribute content with CloudFront <br>&emsp; + Check accessibility and performance | 30/05/2026 | 30/05/2026      | <https://cloudjourney.awsstudygroup.com/> |
 
 
 ### Week 2 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Understood AWS identity and access management through IAM.
 
-* Successfully created and configured an AWS Free Tier account.
+* Learned the roles of the main IAM components:
+  * User
+  * Group
+  * Role
+  * Policy
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+* Successfully created an IAM user and applied appropriate permissions.
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+* Understood the principle of **least privilege** and the importance of limiting access rights.
 
-* Used AWS CLI to perform basic operations such as:
+* Learned the basic network structure in Amazon VPC, including:
+  * VPC
+  * CIDR Block
+  * Public Subnet
+  * Private Subnet
+  * Route Table
+  * Internet Gateway
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
+* Understood the role of Amazon S3 in data storage and static website hosting.
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Successfully created and managed an S3 bucket, including:
+  * Uploading and deleting objects.
+  * Configuring bucket policies.
+  * Setting up static website hosting.
+
+* Understood how Amazon CloudFront works and the benefits of a CDN for reducing content access latency.
+
+* Learned the purpose of Amazon Route 53 in DNS management and domain routing.
+
+* Gained basic knowledge of Lambda@Edge and how it processes requests at the edge.
+
+* Successfully deployed a static website using Amazon S3 together with Amazon CloudFront and verified access through a browser.
+
+* Began understanding how to combine multiple AWS services to build a scalable and efficient web system.

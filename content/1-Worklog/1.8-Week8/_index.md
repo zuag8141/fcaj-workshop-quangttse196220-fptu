@@ -1,57 +1,47 @@
 ---
 title: "Week 8 Worklog"
-date: 2024-01-01
+date: "2026-07-11"
 weight: 1
 chapter: false
 pre: " <b> 1.8. </b> "
 ---
-{{% notice warning %}} 
+{{% notice warning %}}
 ⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
 {{% /notice %}}
 
 
-### Week 8 Objectives:
+### Objectives for Week 8:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Learn about database systems on AWS: RDS, Aurora, Redshift, ElastiCache.
+* Practice building a database subnet group, test connectivity, backup & restore.
+* Learn data analytics services such as Kinesis, Glue, Athena, QuickSight.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
+| Day | Task                                                                                                                                                                                                                                                                                                                                    | Start Date | Completion Date | Reference Materials                                                                                                                                                        |
+| --- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2   | - Learn about Databases: RDS, Aurora, Redshift, ElastiCache <br> - Learn about Multi-AZ architecture, read replicas, backup/restore                                                                                                                                                                                                     | 07/07/2026 | 07/07/2026 | <https://youtu.be/OOD2RwWuLRw?si=9JsOs0PNfO1TdAUl> <br><br> <https://youtu.be/qbrobQZrokY?si=ePJjzYXWg3qE_Ca6> <br><br> <https://youtu.be/UvdiRW34aNI?si=8g3FwgsJ3VLT-_nf> |
+| 3   | - **Practice:** <br>&emsp; + Create VPC + SG for EC2 + RDS <br>&emsp; + Create DB subnet group <br>&emsp; + Deploy EC2 <br>&emsp; + Create RDS instance + Backup & Restore                                                                                                                                                              | 08/07/2026 | 08/07/2026 | <https://000005.awsstudygroup.com>                                                                                                                                         |
+| 4   | - **Practice:** <br>&emsp; + Connect to MSSQL/Oracle <br>&emsp; + Schema Conversion <br>&emsp; + Create DMS Task <br>&emsp; + Inspect logs, troubleshoot                                                                                                                                                                                | 09/07/2026 | 09/07/2026 | <https://000043.awsstudygroup.com>                                                                                                                                         |
+| 5   | - Learn about Data Analytics (Kinesis, Glue, Athena, QuickSight) <br> - **Practice:** <br>&emsp; + Create DynamoDB table <br>&emsp; + Enable autoscaling <br>&emsp; + CRUD test <br>&emsp; + Create Global Table and clean up resources                                                                                                 | 10/07/2026 | 10/07/2026 | <https://000039.awsstudygroup.com>                                                                                                                                         |
+| 6   | - **Practice (lab35):** <br>&emsp; + Create S3 bucket <br>&emsp; + Create Kinesis Firehose ingestion + Glue crawler <br>&emsp; + Query data with Athena + Create QuickSight dashboard <br> - **Practice (lab40):** <br>&emsp; + Check cost allocation <br>&emsp; + Tagging resources <br>&emsp; + Additional queries & resource cleanup | 11/07/2026 | 11/07/2026 | <https://000035.awsstudygroup.com> <br><br> <https://000040.awsstudygroup.com>                                                                                             |
 
 ### Week 8 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* **Overview:**  
+  * This week, I focused on AWS database and data analytics services, including RDS, Aurora, DynamoDB, DMS, Kinesis, Glue, Athena, and QuickSight. I gained a solid understanding of database architecture, connectivity, backup/restore, autoscaling, as well as the end-to-end data analytics pipeline from ingestion -> ETL -> query -> visualization.
+  
+* **Theory Learned:**
+  * Concepts of RDS, Aurora architecture, Multi-AZ, read replicas  
+  * Backup, snapshot, parameter group, option group  
+  * DynamoDB: partition key, sort key, throughput, autoscaling, DAX  
+  * Overview of Data Analytics: Kinesis Firehose, Glue crawler, Athena, QuickSight  
+  * Database Migration concepts: schema conversion, DMS task  
+  
+* **Lab Practice:**
+  * Created VPC + security groups for EC2/RDS  
+  * Created DB subnet group, deployed EC2 and RDS MySQL  
+  * Performed Backup & Restore  
+  * Connected to MSSQL/Oracle, practiced Schema Conversion & created DMS task  
+  * Created DynamoDB table, enabled autoscaling, CRUD test, created Global Table & cleanup  
+  * Built analytics pipeline: Kinesis Firehose -> S3, Glue crawler, Athena queries, and QuickSight dashboard  
+  * Performed additional tasks: tagging, cost allocation, and resource cleanup

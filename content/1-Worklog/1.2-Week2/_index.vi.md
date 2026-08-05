@@ -1,6 +1,6 @@
 ---
 title: "Worklog Tuần 2"
-date: 2024-01-01
+date: "2026-05-30"
 weight: 1
 chapter: false
 pre: " <b> 1.2. </b> "
@@ -12,48 +12,56 @@ pre: " <b> 1.2. </b> "
 
 ### Mục tiêu tuần 2:
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Hiểu cơ chế quản lý danh tính và phân quyền trên AWS với IAM.
+* Nắm được các thành phần mạng cơ bản trong Amazon VPC.
+* Làm quen với Amazon S3 và triển khai website tĩnh.
+* Hiểu vai trò của Route 53 và CloudFront trong việc phân phối nội dung.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --------- | ------------ | --------------- | -------------- |
+| 2 | - Tìm hiểu AWS Identity and Access Management (IAM) <br>&emsp; + User <br>&emsp; + Group <br>&emsp; + Role <br>&emsp; + Policy <br> - **Thực hành:** <br>&emsp; + Tạo IAM User <br>&emsp; + Gán quyền bằng Policy | 26/05/2026 | 26/05/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 3 | - Tìm hiểu Amazon Virtual Private Cloud (VPC) <br>&emsp; + CIDR <br>&emsp; + Public/Private Subnet <br>&emsp; + Internet Gateway <br>&emsp; + Route Table | 27/05/2026 | 27/05/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 4 | - Tìm hiểu Amazon S3 <br>&emsp; + Bucket <br>&emsp; + Object <br>&emsp; + Bucket Policy <br> - **Thực hành:** <br>&emsp; + Tạo S3 Bucket <br>&emsp; + Upload dữ liệu <br>&emsp; + Host Static Website | 28/05/2026 | 28/05/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 5 | - Tìm hiểu Amazon Route 53 <br> - Tìm hiểu Amazon CloudFront <br> - Tìm hiểu Lambda@Edge và các trường hợp sử dụng | 29/05/2026 | 29/05/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 6 | - **Thực hành:** <br>&emsp; + Triển khai Website tĩnh trên Amazon S3 <br>&emsp; + Phân phối nội dung bằng CloudFront <br>&emsp; + Kiểm tra khả năng truy cập và hiệu năng | 30/05/2026 | 30/05/2026 | https://cloudjourney.awsstudygroup.com/ |
 
 ### Kết quả đạt được tuần 2:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Hiểu mô hình quản lý danh tính và phân quyền của AWS thông qua IAM.
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+* Nắm được chức năng của các thành phần trong IAM:
+  * User
+  * Group
+  * Role
+  * Policy
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+* Tạo thành công IAM User và áp dụng chính sách phân quyền phù hợp cho từng tài khoản.
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+* Hiểu nguyên tắc **least privilege** và tầm quan trọng của việc giới hạn quyền truy cập.
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+* Hiểu cấu trúc mạng cơ bản trong Amazon VPC, bao gồm:
+  * VPC
+  * CIDR Block
+  * Public Subnet
+  * Private Subnet
+  * Route Table
+  * Internet Gateway
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
+* Hiểu vai trò của Amazon S3 trong việc lưu trữ dữ liệu và triển khai website tĩnh.
 
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+* Tạo và quản lý S3 Bucket thành công, bao gồm:
+  * Upload và xóa Object.
+  * Cấu hình Bucket Policy.
+  * Thiết lập Static Website Hosting.
 
+* Hiểu nguyên lý hoạt động của Amazon CloudFront và lợi ích của CDN trong việc giảm độ trễ khi truy cập nội dung.
 
+* Tìm hiểu chức năng của Amazon Route 53 trong việc quản lý DNS và định tuyến tên miền.
+
+* Có kiến thức cơ bản về Lambda@Edge và khả năng xử lý request tại Edge Location.
+
+* Triển khai thành công website tĩnh bằng Amazon S3 kết hợp Amazon CloudFront và kiểm tra khả năng truy cập từ trình duyệt.
+
+* Bước đầu hiểu cách kết hợp nhiều dịch vụ AWS để xây dựng một hệ thống web có khả năng mở rộng và phân phối nội dung hiệu quả.

@@ -1,57 +1,65 @@
 ---
 title: "Week 9 Worklog"
-date: 2024-01-01
+date: "2026-07-18"
 weight: 1
 chapter: false
 pre: " <b> 1.9. </b> "
 ---
-{{% notice warning %}} 
+{{% notice warning %}}
 ⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
 {{% /notice %}}
 
 
-### Week 9 Objectives:
+### Objectives for Week 9:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Learn about AWS services used for frontend deployment, backend hosting, file storage, system monitoring, and cost management.
+* Understand how to design the network infrastructure and security for an application deployed on AWS.
+* Analyze the connection flow between the application hosted on AWS and MongoDB Atlas.
+* Research and create an overall AWS architecture diagram suitable for the project.
+* Learn about solutions for monitoring system performance and controlling AWS costs.
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Tasks to be completed this week:
 
+| Day       | Tasks                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | Start date | Completion date | Reference materials |
+| --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | ------------------- |
+| Monday    | - Learn about the overall system architecture on AWS. <br> - Study the AWS services used for frontend deployment, including Route 53, CloudFront, S3 Frontend, and ACM. <br> - Analyze the user access flow through Route 53, CloudFront, and the frontend application. <br> - Learn how ACM provides SSL/TLS certificates for secure HTTPS connections.                                                                                                                                                                                                                                                          | 14/07/2026 | 14/07/2026      |                     |
+| Tuesday   | - Learn about AWS networking components, including VPC, Public Subnet, and Internet Gateway. <br> - Learn how Security Groups control inbound and outbound traffic for EC2 instances. <br> - Understand the role of Elastic IP in providing a fixed public IP address for EC2. <br> - Analyze the deployment model of a backend application hosted on an EC2 instance in a Public Subnet.                                                                                                                                                                                                                         | 15/07/2026 | 15/07/2026      |                     |
+| Wednesday | - Learn how to use S3 Receipts to store receipt images and files uploaded by users. <br> - Learn about IAM Roles and how to grant EC2 permission to access S3 without storing Access Keys directly in the source code. <br> - Analyze the image upload and retrieval flow between the frontend, the EC2 backend, and S3 Receipts. <br> - Learn how to connect the backend hosted on EC2 to MongoDB Atlas.                                                                                                                                                                                                         | 16/07/2026 | 16/07/2026      |                     |
+| Thursday  | - Learn how CloudWatch is used to monitor EC2 metrics, logs, and operational status. <br> - Learn how SNS sends notifications when errors occur or monitoring thresholds are exceeded. <br> - Learn how AWS Budgets monitors AWS spending and sends cost alerts. <br> - Analyze how CloudWatch, SNS, and AWS Budgets can be integrated into the system architecture.                                                                                                                                                                                                                                              | 17/07/2026 | 17/07/2026      |                     |
+| Friday    | - **Architecture design practice:** <br>&emsp; + Identify the main components of the system. <br>&emsp; + Draw the frontend access flow through Route 53, CloudFront, and S3 Frontend. <br>&emsp; + Draw the request flow from the frontend to the backend hosted on EC2. <br>&emsp; + Illustrate the connections between EC2, S3 Receipts, and MongoDB Atlas. <br>&emsp; + Add IAM Roles, Security Groups, and other security components to the diagram. <br>&emsp; + Add CloudWatch, SNS, and AWS Budgets to the architecture. <br> - Review and complete the overall AWS architecture diagram for the project. | 18/07/2026 | 18/07/2026      |                     |
 
-### Week 9 Achievements:
+### Results achieved in Week 9:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* General results:
+  * This week, I focused on researching and designing an AWS architecture for deploying the project.
+  * The architecture includes components for frontend distribution, backend hosting, receipt image storage, database connectivity, system monitoring, and cost management.
+  * I gained a better understanding of the system's overall operational flow, from the moment a user accesses the application to the point where requests are processed by the backend and data is stored in the relevant services.
 
-* Successfully created and configured an AWS Free Tier account.
+* Theoretical knowledge gained:
+  * Route 53 is used to manage the domain name and route users to the application.
+  * CloudFront is used to distribute frontend content through a Content Delivery Network.
+  * S3 Frontend is used to store static files for the frontend application.
+  * ACM is used to manage SSL/TLS certificates and enable secure HTTPS access.
+  * VPC, Public Subnet, and Internet Gateway provide the network environment for AWS resources.
+  * Security Groups control inbound and outbound traffic for EC2 instances.
+  * Elastic IP provides a fixed public IP address for an EC2 instance.
+  * EC2 is used to deploy and operate the project's backend application.
+  * S3 Receipts is used to store receipt images and files uploaded by users.
+  * IAM Roles allow EC2 instances to access other AWS services without storing credentials directly in the source code.
+  * MongoDB Atlas is used as the database system and is connected to the backend hosted on EC2.
+  * CloudWatch supports the monitoring of EC2 metrics, logs, and operational status.
+  * SNS supports sending notifications when alerts or system issues occur.
+  * AWS Budgets helps monitor AWS spending and sends notifications when costs reach a specified threshold.
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Architecture design practice:
+  * Identified and categorized the frontend, backend, storage, database, monitoring, and cost-management components.
+  * Designed the frontend access flow: User → Route 53 → CloudFront → S3 Frontend.
+  * Designed the backend request flow: Frontend → Elastic IP → EC2.
+  * Placed the EC2 instance inside a Public Subnet within the VPC and connected it to the Internet through an Internet Gateway.
+  * Used a Security Group to restrict the ports and sources allowed to access the EC2 instance.
+  * Designed the flow for uploading and retrieving receipt images from S3 Receipts through an IAM Role.
+  * Illustrated the connection between the backend hosted on EC2 and MongoDB Atlas.
+  * Added CloudWatch to collect EC2 metrics and application logs.
+  * Added SNS to send notifications when system issues occur or monitoring thresholds are exceeded.
+  * Added AWS Budgets to monitor and control AWS service costs.
+  * Completed the overall AWS architecture diagram for the project deployment.

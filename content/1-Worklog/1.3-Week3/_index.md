@@ -1,57 +1,63 @@
 ---
 title: "Week 3 Worklog"
-date: 2024-01-01
+date: "2026-06-06"
 weight: 1
 chapter: false
 pre: " <b> 1.3. </b> "
 ---
-{{% notice warning %}} 
+{{% notice warning %}}
 ⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
 {{% /notice %}}
 
 
 ### Week 3 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Understand database services on AWS and choose the right one for each use case.
+* Get familiar with Amazon RDS, Amazon DynamoDB, and Amazon ElastiCache.
+* Learn about Amazon Lightsail and Lightsail Containers for simple deployments.
+* Practice deploying and connecting databases on AWS.
 
 ### Tasks to be carried out this week:
 | Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 2   | - Learn about Amazon Relational Database Service (RDS) <br>&emsp; + Database Engine <br>&emsp; + DB Instance <br>&emsp; + Backup & Snapshot <br>&emsp; + Multi-AZ | 02/06/2026 | 02/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 3   | - **Practice:** <br>&emsp; + Launch Amazon RDS <br>&emsp; + Connect to the database from an application or SQL client <br>&emsp; + Perform basic CRUD operations | 03/06/2026 | 03/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 4   | - Learn about Amazon DynamoDB <br>&emsp; + Table <br>&emsp; + Partition Key <br>&emsp; + Sort Key <br>&emsp; + Capacity Mode <br> - Practice creating tables and working with data | 04/06/2026 | 04/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 5   | - Learn about Amazon ElastiCache <br>&emsp; + Redis <br>&emsp; + Memcached <br> - Learn about Amazon Lightsail and Amazon Lightsail Containers | 05/06/2026 | 05/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 6   | - **Practice:** <br>&emsp; + Deploy an application on Amazon Lightsail <br>&emsp; + Get familiar with Lightsail Containers <br>&emsp; + Compare Lightsail and EC2 | 06/06/2026 | 06/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
 
 
 ### Week 3 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Understood the difference between relational databases (SQL) and NoSQL databases.
 
-* Successfully created and configured an AWS Free Tier account.
+* Learned the use cases of Amazon RDS and its supported database engines such as:
+  * MySQL
+  * PostgreSQL
+  * MariaDB
+  * Microsoft SQL Server
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+* Successfully deployed an Amazon RDS database instance and connected to it from an application or management tool.
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+* Understood the role of Backup, Snapshot, and Multi-AZ in improving availability and data safety.
 
-* Used AWS CLI to perform basic operations such as:
+* Understood how Amazon DynamoDB works and how it stores data in a key-value model.
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
+* Performed basic operations in DynamoDB:
+  * Create a table.
+  * Add data.
+  * Query data.
+  * Update data.
+  * Delete data.
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Understood the role of Amazon ElastiCache in improving performance through in-memory caching.
+
+* Distinguished between Redis and Memcached and learned their common use cases.
+
+* Got familiar with Amazon Lightsail and understood its advantages for small applications or personal websites.
+
+* Successfully deployed a simple application on Amazon Lightsail and learned the deployment flow with Lightsail Containers.
+
+* Compared Amazon EC2 and Amazon Lightsail in terms of configurability, cost, and management effort.
+
+* Gained the ability to choose the right database and deployment platform for each application requirement.

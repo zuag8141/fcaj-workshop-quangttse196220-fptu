@@ -1,57 +1,43 @@
 ---
 title: "Week 4 Worklog"
-date: 2024-01-01
+date: "2026-06-13"
 weight: 1
 chapter: false
 pre: " <b> 1.4. </b> "
 ---
-{{% notice warning %}} 
+{{% notice warning %}}
 ⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
 {{% /notice %}}
 
 
 ### Week 4 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Learn how to deploy VPC Peering between multiple VPCs.
+* Learn how to configure Transit Gateway for large-scale inter-VPC connectivity.
+* Practice advanced labs related to routing and DNS across VPCs.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| Day | Task                                                                                                                                                                                                              | Start Date | End Date   | Reference                          |
+| --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | ---------- | ---------------------------------- |
+| 2   | - Learn the fundamentals of VPC Peering: how it works, limitations, routing behavior <br> - Learn about the concept of peering inside a VPC                                                                       | 09/06/2026 | 09/06/2026 | <https://000019.awsstudygroup.com> |
+| 3   | - **Hands-on:** <br>&emsp; + Create EC2 instances in multiple VPCs and configure routing <br>&emsp; + Verify NACLs and Security Groups when using peering <br>&emsp; + Finalize the peering setup                 | 10/06/2026 | 10/06/2026 | <https://000019.awsstudygroup.com> |
+| 4   | - Learn about Transit Gateway <br> - **Hands-on:** <br>&emsp; + Deploy a TGW <br>&emsp; + Set up routing between VPCs and the TGW                                                                                 | 11/06/2026 | 11/06/2026 | <https://000020.awsstudygroup.com> |
+| 5   | - **Hands-on:** <br>&emsp; + Create a Transit Gateway connection <br>&emsp; + Create a TGW Route Table <br>&emsp; + Map VPC routes to the TGW <br>&emsp; + Final connectivity check between multiple VPCs via TGW | 02/10/2025 | 02/10/2025 | <https://000020.awsstudygroup.com> |
+|     | - Clean up all lab resources <br> - Consolidate knowledge of Peering and Transit Gateway                                                                                                                          | 12/06/2026 | 12/06/2026 | <https://000020.awsstudygroup.com> |
+| 6   |                                                                                                                                                                                                                   | 13/06/2026 | 13/06/2026 |                                    |
 
 
 ### Week 4 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* **Summary:**  
+  * During this week, I explored different models for connecting multiple VPCs, including VPC Peering and Transit Gateway. I gained a clear understanding of how inter-VPC networking works, how routing is performed through TGW, and how each component functions within a multi-VPC architecture.
 
-* Successfully created and configured an AWS Free Tier account.
+* **Theory learned:**  
+  * How VPC Peering operates and how routing is handled between two VPCs.
+  * The architecture and capabilities of Transit Gateway (TGW) for connecting multiple VPCs in a hub-and-spoke topology
+  * How to configure route tables in VPCs connected via Peering or Transit Gateway.
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* **Hands-on labs:**  
+  * Created VPC Peering connections and updated route tables to enable traffic between VPCs.
+  * Configured a Transit Gateway, created TGW attachments, and set up routing between connected networks.
+  *Tested connectivity across subnets and VPCs to validate the configuration.
