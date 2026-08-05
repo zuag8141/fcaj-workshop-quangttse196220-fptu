@@ -84,7 +84,7 @@ Dự án sử dụng kiến trúc nguyên khối (Monolithic) cho phần ứng d
 * **Quản lý chi phí:** AWS Budgets liên tục theo dõi chi phí tài nguyên và sẽ tự động gửi cảnh báo (qua email hoặc SNS) nếu chi tiêu vượt mức ngân sách dự kiến của dự án.
 
 ### 2.3.1 Kiến trúc hiện tại
-![Architecture](/aws_internship/images/2-Proposal/Architecture_Final.png)
+![Architecture](/images/2-Proposal/Architecture_Final.png)
 
 ### Dịch vụ AWS sử dụng
 
@@ -123,7 +123,7 @@ Dự án sử dụng kiến trúc nguyên khối (Monolithic) cho phần ứng d
 
 Hình dưới đây mô tả kiến trúc nâng cấp được đề xuất cho hệ thống Splitly trong tương lai. Kiến trúc này chưa nằm trong phạm vi triển khai hiện tại nhưng được định hướng là giai đoạn phát triển tiếp theo của hệ thống.
 
-![Architecture_Update](/aws_internship/images/2-Proposal/Architecture_Update.png)
+![Architecture_Update](/images/2-Proposal/Architecture_Update.png)
 
 Trong kiến trúc đề xuất, ứng dụng frontend sẽ được tách khỏi máy chủ backend. Frontend React/Vite được build thành các file tĩnh và lưu trữ trong Amazon S3 Frontend Bucket. Amazon CloudFront được sử dụng để phân phối nội dung frontend đến người dùng, giúp giảm độ trễ và cải thiện tốc độ tải trang.
 
