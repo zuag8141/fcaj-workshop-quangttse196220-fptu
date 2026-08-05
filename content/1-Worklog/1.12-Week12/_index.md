@@ -5,10 +5,6 @@ weight: 1
 chapter: false
 pre: " <b> 1.12. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 ### Objectives for Week 12:
 
 * Research and design an AWS architecture for the project's development and testing environment.

@@ -1,22 +1,15 @@
 ---
-title: "Blogs Posted"
-date: 2024-01-01
+title: "Translated Blogs"
+date: "2026-07-17"
 weight: 3
 chapter: false
 pre: " <b> 3. </b> "
 ---
+###  [Blog 1 - How Generali Malaysia optimizes operations with Amazon EKS](3.1-Blog1/)
+The article explains how Generali Malaysia modernized its insurance operations by adopting a microservices architecture on Amazon EKS, particularly EKS Auto Mode, to automate node management, load balancing, storage, patching, upgrades, and resource scaling. The solution follows the AWS Well-Architected Framework and integrates services such as Amazon GuardDuty, Amazon Inspector, AWS Network Firewall, and AWS Secrets Manager to strengthen security. Generali also uses resource tagging, Savings Plans, and AWS Graviton processors to optimize costs, while Amazon CloudWatch and Amazon Managed Grafana provide project-level performance monitoring. As a result, the company reduced manual operational workloads, improved system reliability and incident response, accelerated application deployment cycles, optimized infrastructure costs, and enabled its DevOps teams to focus more on product development rather than infrastructure maintenance.
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
+###  [Blog 2 - How Scale to Win uses AWS WAF to block DDoS events](3.2-Blog2/)
+The blog explains how Scale to Win protected its campaign communication platform from DDoS attacks that peaked at more than two million requests per second by combining Amazon CloudFront, AWS WAF, and AWS Shield Advanced. The company routed all traffic through CloudFront, restricted direct access to its Application Load Balancer, and used a shared secret header to prevent attackers from bypassing the protection layer. Its AWS WAF configuration separates browser traffic from machine-to-machine traffic, applies path-based rules, trusted IP lists, and different rate limits, and uses CAPTCHA challenges for suspicious browser activity while preserving legitimate high-volume API and webhook traffic. Scale to Win also used logging, Amazon Athena, traffic fingerprints, and AWS WAF Bot Control to identify malicious patterns and prevent attackers from reusing solved CAPTCHA tokens across multiple IP addresses.
 
-This section will list and introduce the blogs you have posted to [AWS Study Group](https://www.facebook.com/groups/awsstudygroupfcj). For example:
-
-###  [Blog 1 - SESSION POLICIES IN AMAZON EKS POD IDENTITY](3.1-Blog1/)
-This blog introduces the newly added session policies feature in Amazon EKS Pod Identity, which allows you to narrow IAM permissions flexibly and precisely for each pod without needing to create multiple separate IAM roles. This is an important step forward that helps apply the principle of least privilege more effectively in large-scale Kubernetes environments.
-
-###  [Blog 2 - ...](3.2-Blog2/)
-This blog introduces the newly added session policies feature in Amazon EKS Pod Identity, which allows you to narrow IAM permissions flexibly and precisely for each pod without needing to create multiple separate IAM roles. This is an important step forward that helps apply the principle of least privilege more effectively in large-scale Kubernetes environments.
-
-###  [Blog 3 - ...](3.3-Blog3/)
-This blog introduces the newly added session policies feature in Amazon EKS Pod Identity, which allows you to narrow IAM permissions flexibly and precisely for each pod without needing to create multiple separate IAM roles. This is an important step forward that helps apply the principle of least privilege more effectively in large-scale Kubernetes environments.
+###  [Blog 3 - Architecting for agentic AI development on AWS](3.3-Blog3/)
+The blog explains how AWS architectures can be redesigned to support agentic AI development, where AI agents independently write, test, deploy, and refine code through rapid feedback loops. It recommends using local emulation tools such as AWS SAM, DynamoDB Local, containers, and AWS Glue Docker images to validate changes quickly, while lightweight cloud resources and temporary preview environments handle tests that require real AWS services. The article also emphasizes AI-friendly codebases with clear domain, application, and infrastructure boundaries, explicit project rules, layered automated testing, monorepos, and machine-readable documentation. Finally, it recommends integrating agents into CI/CD pipelines with safeguards such as mandatory tests, automated reviews, branch protection, and human approval for high-impact decisions, enabling faster development without sacrificing reliability or governance.

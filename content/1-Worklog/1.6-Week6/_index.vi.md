@@ -5,10 +5,6 @@ weight: 1
 chapter: false
 pre: " <b> 1.6. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 ### Mục tiêu tuần 6:
 
 * Tìm hiểu tổng quan về các dịch vụ lưu trữ AWS (S3, Glacier, Backup, Storage Gateway, Snow Family).

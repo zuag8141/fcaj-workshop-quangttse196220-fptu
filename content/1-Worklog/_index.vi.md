@@ -6,10 +6,6 @@ chapter: false
 pre: " <b> 1. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 Trong suốt **12 tuần** tham gia chương trình thực tập, tôi xây dựng nhật ký công việc (Worklog) để theo dõi quá trình học tập, thực hành và hoàn thành các nội dung trong lộ trình AWS.
 
 Nội dung của từng tuần được sắp xếp theo mức độ từ cơ bản đến nâng cao, bao gồm các chủ đề như điện toán đám mây, quản lý hạ tầng, bảo mật, DevOps, kiến trúc Serverless, phân tích dữ liệu và các dịch vụ AI/ML trên AWS. Mỗi Worklog ghi lại mục tiêu của tuần, các công việc đã thực hiện, kết quả đạt được và những kiến thức, kinh nghiệm tích lũy trong quá trình học tập và thực hành.
