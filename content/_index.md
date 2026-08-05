@@ -13,23 +13,21 @@ chapter: false
 {{% /notice %}}
 
 ### Student Information:
-&emsp; **Full Name:** Nguyen Van A
+&emsp; **Full Name:** Trần Thường Quang
 
-&emsp; **Phone Number:** 0989888999 
+&emsp; **Phone Number:** 0733345102 
 
-&emsp; **Email:** Anguyenvan@gmail.com
+&emsp; **Email:** tranthuongquang@gmail.com
 
-&emsp; **University:** Ho Chi Minh City University of Technology and Education
+&emsp; **University:** FPT University
 
-&emsp; **Major:** Information Technology
+&emsp; **Major:** Software Engineering
 
-&emsp; **Class:** AWS082025
-
-&emsp; **Internship Company:** Amazon Web Services Viet Nam Company Limited
+&emsp; **Internship Company:** Công ty TNHH Amazon Web Services Việt Nam
 
 &emsp; **Internship Position:** Workforce Bootcamp - First Cloud AI Journey
 
-&emsp; **Internship Duration:** From 12/08/2025 to 12/11/2025
+&emsp; **Internship Duration:** From 18/05/2026 to 09/08/2026
 
 ![Your profile picture](/images/avatar.png)
 
