@@ -87,7 +87,7 @@ The project uses a monolithic application architecture deployed centrally on AWS
 * **Cost Management:** AWS Budgets continuously monitors resource costs and automatically sends alerts through email or SNS when spending exceeds the expected project budget.
 
 ### 2.3.1 Current Architecture
-![Architecture](/fcaj-workshop-quangttse196220/images/2-Proposal/Architecture_Final.png)
+![Architecture](/images/2-Proposal/Architecture_Final.png)
 
 ### AWS Services Used
 

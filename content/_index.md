@@ -25,7 +25,7 @@ chapter: false
 
 &emsp; **Internship Duration:** From 18/05/2026 to 09/08/2026
 
-![Your profile picture](/fcaj-workshop-quangttse196220/images/avatar.png)
+![Your profile picture](/images/avatar.png)
 
 ### Report Content
 

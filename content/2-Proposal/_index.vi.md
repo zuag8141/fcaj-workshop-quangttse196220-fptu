@@ -84,7 +84,7 @@ Dự án sử dụng kiến trúc nguyên khối (Monolithic) cho phần ứng d
 * **Quản lý chi phí:** AWS Budgets liên tục theo dõi chi phí tài nguyên và sẽ tự động gửi cảnh báo (qua email hoặc SNS) nếu chi tiêu vượt mức ngân sách dự kiến của dự án.
 
 ### 2.3.1 Kiến trúc hiện tại
-![Architecture](/fcaj-workshop-quangttse196220/images/2-Proposal/Architecture_Final.png)
+![Architecture](/images/2-Proposal/Architecture_Final.png)
 
 ### Dịch vụ AWS sử dụng
 
