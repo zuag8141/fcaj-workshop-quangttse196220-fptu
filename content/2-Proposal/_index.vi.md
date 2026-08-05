@@ -58,51 +58,48 @@ Dự án gồm 2 phần — thiết lập trạm thời tiết biên và xây d�
 2. *Tính toán chi phí và kiểm tra tính khả thi*: Sử dụng AWS Pricing Calculator để ước tính và điều chỉnh (Tháng 1).  
 3. *Điều chỉnh kiến trúc để tối ưu chi phí/giải pháp*: Tinh chỉnh (ví dụ tối ưu Lambda với Next.js) để đảm bảo hiệu quả (Tháng 2).  
 4. *Phát triển, kiểm thử, triển khai*: Lập trình Raspberry Pi, AWS services với CDK/SDK và ứng dụng Next.js, sau đó kiểm thử và đưa vào vận hành (Tháng 2–3).  
-
-*Yêu cầu kỹ thuật*  
+title: "Bản đề xuất"
+date: 2026-08-05
 - *Trạm thời tiết biên*: Cảm biến (nhiệt độ, độ ẩm, lượng mưa, tốc độ gió), vi điều khiển ESP32, Raspberry Pi làm thiết bị biên. Raspberry Pi chạy Raspbian, sử dụng Docker để lọc dữ liệu và gửi 1 MB/ngày/trạm qua MQTT qua Wi-Fi.  
 - *Nền tảng thời tiết*: Kiến thức thực tế về AWS Amplify (lưu trữ Next.js), Lambda (giảm thiểu do Next.js xử lý), AWS Glue (ETL), S3 (2 bucket), IoT Core (gateway và rules), và Cognito (5 người dùng). Sử dụng AWS CDK/SDK để lập trình (ví dụ IoT Core rules tới S3). Next.js giúp giảm tải Lambda cho ứng dụng web fullstack.  
 
 ### 5. Lộ trình & Mốc triển khai  
-- *Trước thực tập (Tháng 0)*: 1 tháng lên kế hoạch và đánh giá trạm cũ.  
-- *Thực tập (Tháng 1–3)*:  
-    - Tháng 1: Học AWS và nâng cấp phần cứng.  
-    - Tháng 2: Thiết kế và điều chỉnh kiến trúc.  
-    - Tháng 3: Triển khai, kiểm thử, đưa vào sử dụng.  
-- *Sau triển khai*: Nghiên cứu thêm trong vòng 1 năm.  
+{{% notice warning %}}
+⚠️ **Lưu ý:** Dưới đây là bản đề xuất đã được điều chỉnh từ tài liệu tham khảo; không sao chép nguyên văn vào báo cáo chính thức.
+{{% /notice %}}
 
-### 6. Ước tính ngân sách  
-Có thể xem chi phí trên [AWS Pricing Calculator](https://calculator.aws/#/estimate?id=621f38b12a1ef026842ba2ddfe46ff936ed4ab01)  
-Hoặc tải [tệp ước tính ngân sách](../attachments/budget_estimation.pdf).  
+# Splitly — Đề xuất tóm tắt
 
-*Chi phí hạ tầng*  
-- AWS Lambda: 0,00 USD/tháng (1.000 request, 512 MB lưu trữ).  
-- S3 Standard: 0,15 USD/tháng (6 GB, 2.100 request, 1 GB quét).  
-- Truyền dữ liệu: 0,02 USD/tháng (1 GB vào, 1 GB ra).  
-- AWS Amplify: 0,35 USD/tháng (256 MB, request 500 ms).  
-- Amazon API Gateway: 0,01 USD/tháng (2.000 request).  
-- AWS Glue ETL Jobs: 0,02 USD/tháng (2 DPU).  
-- AWS Glue Crawlers: 0,07 USD/tháng (1 crawler).  
-- MQTT (IoT Core): 0,08 USD/tháng (5 thiết bị, 45.000 tin nhắn).  
+## Tóm tắt
+Splitly là một nền tảng quản lý chi tiêu nhóm, hướng tới các nhóm nhỏ (ví dụ: dự án sinh viên) để ghi lại chi tiêu chung, tính toán công nợ và quản lý việc quyết toán. Thiết kế ưu tiên triển khai đơn giản trên AWS, sử dụng frontend React/Vite, backend Node.js, MongoDB Atlas và Amazon S3 cho lưu trữ hóa đơn.
 
-*Tổng*: 0,7 USD/tháng, 8,40 USD/12 tháng  
-- *Phần cứng*: 265 USD một lần (Raspberry Pi 5 và cảm biến).  
+## Vấn đề và mục tiêu
+Quản lý chi tiêu bằng bảng tính và chat dễ dẫn đến sai sót khi số lượng giao dịch tăng. Mục tiêu của Splitly là tập trung hóa dữ liệu, tự động tính toán công nợ, lưu trữ biên lai có thể tìm kiếm và minh bạch quá trình thanh toán.
 
-### 7. Đánh giá rủi ro  
-*Ma trận rủi ro*  
-- Mất mạng: Ảnh hưởng trung bình, xác suất trung bình.  
-- Hỏng cảm biến: Ảnh hưởng cao, xác suất thấp.  
-- Vượt ngân sách: Ảnh hưởng trung bình, xác suất thấp.  
+## Giải pháp chính
+- Frontend: React + Vite, ban đầu phục vụ từ Nginx trên EC2; có thể di chuyển sang S3 + CloudFront.
+- Backend: Node.js/Express, quản lý tiến trình bằng PM2.
+- Dữ liệu: MongoDB Atlas; file hóa đơn lưu trên S3 (MongoDB lưu metadata).
+- Giám sát: CloudWatch + SNS để nhận cảnh báo.
+- Bảo mật: sử dụng IAM Role cho EC2, lưu secrets bằng biến môi trường.
 
-*Chiến lược giảm thiểu*  
-- Mạng: Lưu trữ cục bộ trên Raspberry Pi với Docker.  
-- Cảm biến: Kiểm tra định kỳ, dự phòng linh kiện.  
-- Chi phí: Cảnh báo ngân sách AWS, tối ưu dịch vụ.  
+## Kiến trúc và lộ trình
+- Giai đoạn ban đầu: chạy frontend và backend trên một EC2, Nginx làm reverse proxy.
+- Nâng cấp: tách frontend sang S3/CloudFront, thêm Route 53 và ACM để bật HTTPS, cân nhắc AWS WAF nếu cần.
 
-*Kế hoạch dự phòng*  
-- Quay lại thu thập thủ công nếu AWS gặp sự cố.  
-- Sử dụng CloudFormation để khôi phục cấu hình liên quan đến chi phí.  
+## Mốc triển khai (tóm tắt)
+- Thiết kế & ước lượng chi phí (Tuần 1–2)
+- Xây dựng tính năng cơ bản (Tuần 3–4)
+- Triển khai trên AWS (Tuần 5–6)
+- Kiểm thử và hoàn thiện (Tuần 7–8)
 
-### 8. Kết quả kỳ vọng  
-*Cải tiến kỹ thuật*: Dữ liệu và phân tích thời gian thực thay thế quy trình thủ công. Có thể mở rộng tới 10–15 trạm.  
-*Giá trị dài hạn*: Nền tảng dữ liệu 1 năm cho nghiên cứu AI, có thể tái sử dụng cho các dự án tương lai.
+## Ngân sách sơ bộ
+Triển khai demo dành cho sinh viên có thể tận dụng Free Tier; chi phí vận hành thấp (vài USD/tháng) cho môi trường thử nghiệm. Dùng AWS Pricing Calculator để tính chi tiết nếu cần.
+
+## Rủi ro & giảm thiểu
+- Rủi ro lộ secrets — dùng IAM Role và tránh lưu key cứng.
+- Rủi ro upload biên lai thất bại — thêm cơ chế retry và lưu metadata.
+- Rủi ro vượt chi phí — cấu hình AWS Budgets và cảnh báo CloudWatch.
+
+## Kết quả mong đợi
+Một demo hoạt động cho các luồng chính: ghi chi tiêu, tính chia, đính kèm biên lai, và quản lý quyết toán. Kiến trúc dễ mở rộng để nâng cấp khi cần.

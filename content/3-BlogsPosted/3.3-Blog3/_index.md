@@ -1,31 +1,25 @@
 ---
 title: "Blog 3"
-date: 2024-01-01
+date: "2026-03-26"
 weight: 1
 chapter: false
 pre: " <b> 3.3. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
-{{% /notice %}}
 
-# SESSION POLICIES IN AMAZON EKS POD IDENTITY
+# Architecting for agentic AI development on AWS — summary
 
-Amazon EKS Pod Identity has recently added the session policies feature, allowing you to narrow IAM permissions flexibly and precisely for each pod without needing to create many separate IAM roles. This is an important step forward that helps apply the principle of least privilege more effectively in large-scale Kubernetes environments.
+**Source:** Adapted from an AWS Architecture article on agentic AI
 
-Key points to know:
+As development workflows adopt AI agents that can propose or change code, teams encounter bottlenecks from slow validation cycles and tightly coupled environments. Agentic development requires architectures that enable quick validation, safe isolation, and clear structure.
 
-* A session policy is an inline IAM policy specified when creating or updating a Pod Identity association.
-* Effective permissions = intersection between the IAM role permissions and the session policy → the session policy can only narrow permissions, not expand them.
-* Helps avoid over-permissioning when reusing a single IAM role for multiple workloads with different needs.
-* Supports both same-account and cross-account (via IAM role chaining).
-* Significantly reduces the number of IAM roles that need to be managed, helping avoid hitting IAM quota limits in large clusters.
-* Easily configured through the AWS Management Console, AWS CLI, or AWS SDK when creating an association between a Kubernetes ServiceAccount and an IAM role.
+Recommended patterns:
+- Favor local emulation and short-lived test stacks (e.g., SAM local, container-based testing) so agents get fast feedback without provisioning full cloud resources.
+- Use ephemeral or namespaced environments for safe agent experimentation.
+- Structure repos and CI/CD for predictable placement of code, tests, and deployment steps to reduce ambiguity for automated tools.
 
-This feature is especially useful when you have many applications running on the same IAM role but need different permission restrictions (for example: one pod only reads a specific S3 bucket, another pod only calls certain APIs).
+Benefits:
+- Shorter feedback loops for automated iterations.
+- Lower cost and risk when validating changes.
+- Improved reproducibility and clearer separation of responsibilities between humans and agents.
 
-...Image...
-
-...Link...
-
-...Guide...
+These patterns help integrate agentic tools into standard development processes while containing risk.

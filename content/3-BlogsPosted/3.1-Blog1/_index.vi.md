@@ -1,31 +1,24 @@
 ---
 title: "Blog 1"
-date: 2024-01-01
+date: "2026-07-17"
 weight: 1
 chapter: false
 pre: " <b> 3.1. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+# Tóm tắt: Generali Malaysia tối ưu vận hành bằng Amazon EKS
 
-# SESSION POLICIES TRONG AMAZON EKS POD IDENTITY
+**Nguồn:** Tóm tắt từ bài case study của AWS (Generali Malaysia)
 
-Amazon EKS Pod Identity vừa bổ sung tính năng session policies, cho phép bạn thu hẹp quyền IAM một cách linh hoạt và chính xác cho từng pod mà không cần tạo thêm nhiều IAM roles riêng biệt. Đây là bước tiến quan trọng giúp áp dụng nguyên tắc least privilege hiệu quả hơn trong môi trường Kubernetes quy mô lớn.
+Generali đã container hóa ứng dụng và chọn Amazon EKS để giảm chi phí vận hành, cải thiện bảo mật và tăng khả năng mở rộng. Họ tập trung vào tự động hóa quản lý hạ tầng để nhóm vận hành có thể làm việc nhiều giá trị hơn.
 
-Các điểm chính cần nắm:
+Ý chính:
+- Áp dụng các nguyên tắc Well‑Architected (vận hành, bảo mật, độ tin cậy, hiệu năng, tối ưu chi phí, bền vững).
+- Dùng các tính năng quản lý (ví dụ EKS Auto Mode) để giảm công việc bảo trì node, vá OS và nâng cấp.
+- Thiết lập controls chống gián đoạn (Pod Disruption Budgets, lịch bảo trì, nhiều bản sao) để duy trì sẵn sàng khi nâng cấp.
+- Kết hợp các dịch vụ bảo mật (GuardDuty, Inspector, Network Firewall, Secrets Manager) để bảo vệ workload.
+- Gắn tag và phân bổ chi phí để theo dõi chi phí Kubernetes theo đội/ dự án.
 
-* Session policy là một IAM policy inline được chỉ định khi tạo hoặc cập nhật Pod Identity association.
-* Quyền hiệu quả = intersection (giao) giữa permissions của IAM role và session policy → session policy chỉ có thể thu hẹp, không thể mở rộng quyền.
-* Giúp tránh tình trạng over-permissioning khi reuse chung một IAM role cho nhiều workloads có nhu cầu khác nhau.
-* Hỗ trợ cả same-account và cross-account (qua IAM role chaining).
-* Giảm đáng kể số lượng IAM roles cần quản lý, tránh chạm giới hạn quota IAM trong cluster lớn.
-* Cấu hình dễ dàng qua AWS Management Console, AWS CLI hoặc AWS SDK khi tạo association giữa Kubernetes ServiceAccount và IAM role.
-
-Tính năng này đặc biệt hữu ích khi bạn có nhiều ứng dụng chạy trên cùng một IAM role nhưng cần giới hạn quyền khác nhau (ví dụ: một pod chỉ đọc S3 bucket cụ thể, pod khác chỉ gọi một số API nhất định).
-
-...Hình ảnh...
-
-...Link...
-
-...Hướng dẫn...
+Lợi ích:
+- Giảm công sức quản lý Kubernetes.
+- Cải thiện an ninh và ưu tiên xử lý lỗ hổng.
+- Tối ưu sử dụng tài nguyên và minh bạch chi phí.

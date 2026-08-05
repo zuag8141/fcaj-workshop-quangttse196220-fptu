@@ -1,31 +1,26 @@
 ---
 title: "Blog 1"
-date: 2024-01-01
+date: "2026-07-17"
 weight: 1
 chapter: false
 pre: " <b> 3.1. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
-{{% /notice %}}
+# How Generali Malaysia optimized operations with Amazon EKS — summary
 
-# SESSION POLICIES IN AMAZON EKS POD IDENTITY
+**Source:** Adapted from an AWS Architecture case study (Generali Malaysia)
 
-Amazon EKS Pod Identity has recently added the session policies feature, allowing you to narrow IAM permissions flexibly and precisely for each pod without needing to create many separate IAM roles. This is an important step forward that helps apply the principle of least privilege more effectively in large-scale Kubernetes environments.
+Generali Malaysia modernized several core applications by moving to Amazon EKS. The migration emphasized containerizing workloads, adopting Kubernetes best practices, and automating infrastructure management so that the operations team could focus on higher-value tasks.
 
-Key points to know:
+Key takeaways:
+- Adopt Well‑Architected principles (operational excellence, security, reliability, performance efficiency, cost optimization, sustainability).
+- Use managed features (for example, EKS Auto Mode) to reduce day‑to‑day node maintenance, OS patching, and upgrades.
+- Implement disruption controls (Pod Disruption Budgets, maintenance windows, multiple replicas) to avoid downtime during infrastructure updates.
+- Combine security services (GuardDuty, Inspector, Network Firewall, Secrets Manager) for layered protection of cluster workloads.
+- Use tagging and cost-allocation practices to attribute Kubernetes costs to teams or projects.
 
-* A session policy is an inline IAM policy specified when creating or updating a Pod Identity association.
-* Effective permissions = intersection between the IAM role permissions and the session policy → the session policy can only narrow permissions, not expand them.
-* Helps avoid over-permissioning when reusing a single IAM role for multiple workloads with different needs.
-* Supports both same-account and cross-account (via IAM role chaining).
-* Significantly reduces the number of IAM roles that need to be managed, helping avoid hitting IAM quota limits in large clusters.
-* Easily configured through the AWS Management Console, AWS CLI, or AWS SDK when creating an association between a Kubernetes ServiceAccount and an IAM role.
+Benefits observed:
+- Reduced operational overhead for Kubernetes management.
+- Improved security posture and vulnerability prioritization.
+- Better resource utilization and clearer cost visibility.
 
-This feature is especially useful when you have many applications running on the same IAM role but need different permission restrictions (for example: one pod only reads a specific S3 bucket, another pod only calls certain APIs).
-
-...Image...
-
-...Link...
-
-...Guide...
+Further reading: original case study linked in the source materials.

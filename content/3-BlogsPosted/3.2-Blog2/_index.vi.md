@@ -1,19 +1,24 @@
 ---
 title: "Blog 2"
-date: 2024-01-01
+date: "2026-07-14"
 weight: 1
 chapter: false
 pre: " <b> 3.2. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
-# SESSION POLICIES TRONG AMAZON EKS POD IDENTITY
+# Scale to Win tăng cường bảo vệ DDoS bằng AWS WAF — tóm tắt
 
-Amazon EKS Pod Identity vừa bổ sung tính năng session policies, cho phép bạn thu hẹp quyền IAM một cách linh hoạt và chính xác cho từng pod mà không cần tạo thêm nhiều IAM roles riêng biệt. Đây là bước tiến quan trọng giúp áp dụng nguyên tắc least privilege hiệu quả hơn trong môi trường Kubernetes quy mô lớn.
+**Nguồn:** Tóm tắt từ bài viết kiến trúc AWS về Scale to Win
 
-Các điểm chính cần nắm:
+Scale to Win đối mặt với lưu lượng DDoS rất lớn trong thời kỳ chiến dịch. Họ đặt trọng tâm vào việc chặn các request ác ý ngay ở lớp edge và ngăn kẻ tấn công vượt qua CDN.
+
+Các biện pháp chính:
+- Đặt Amazon CloudFront phía trước Application Load Balancer để edge hấp thụ lưu lượng lớn.
+- Triển khai AWS WAF ở lớp CloudFront với rule dựa trên tần suất (rate), CAPTCHA/challenge và kiểm soát bot.
+- Ngăn truy cập trực tiếp vào origin bằng cách giới hạn security group của ALB chỉ chấp nhận địa chỉ IP CloudFront và yêu cầu header bí mật do CloudFront thêm vào.
+- Kết hợp nhận diện heuristic (mẫu request, header, fingerprint TLS) với giới hạn tần suất phân vùng để tránh chặn nhầm các client hợp lệ dùng IP chia sẻ.
+
+Kết quả: kiến trúc nhiều lớp giảm tải lên tài nguyên khu vực, bảo toàn lưu lượng hợp lệ và cải thiện khả năng ứng phó sự cố.
 
 * Session policy là một IAM policy inline được chỉ định khi tạo hoặc cập nhật Pod Identity association.
 * Quyền hiệu quả = intersection (giao) giữa permissions của IAM role và session policy → session policy chỉ có thể thu hẹp, không thể mở rộng quyền.
