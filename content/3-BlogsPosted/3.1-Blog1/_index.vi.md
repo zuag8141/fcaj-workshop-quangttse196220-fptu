@@ -49,7 +49,7 @@ Quá trình triển khai xem xét sáu trụ cột của Well-Architected:
 
 Việc áp dụng các nguyên tắc này giúp Generali nâng cao khả năng phục hồi của hệ thống thông qua tự động hóa và giám sát, tăng cường bảo mật bằng [AWS Identity and Access Management (IAM)](https://aws.amazon.com/iam/) cùng các chính sách mạng, tối ưu chi phí bằng cách điều chỉnh tài nguyên phù hợp và tự động mở rộng, đồng thời giảm thiểu việc sử dụng tài nguyên không cần thiết.
 
-![Architecture ](./images/BlogsPosted/blog1/blog1.png)
+![Architecture ](./images/3-BlogsPosted/blog1/blog1.png)
 
 Giải pháp mang lại một số lợi ích chính:
 
