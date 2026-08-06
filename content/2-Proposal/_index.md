@@ -87,7 +87,7 @@ The project uses a monolithic application architecture deployed centrally on AWS
 * **Cost Management:** AWS Budgets continuously monitors resource costs and automatically sends alerts through email or SNS when spending exceeds the expected project budget.
 
 ### 2.3.1 Current Architecture
-![Architecture](/images/2-Proposal/Architecture_Final.png)
+![Architecture](/fcaj-workshop-quangttse196220-fptu/images/2-Proposal/Architecture_Final.png)
 
 ### AWS Services Used
 
@@ -126,7 +126,7 @@ The project uses a monolithic application architecture deployed centrally on AWS
 
 The following architecture represents the proposed future enhancement of the Splitly system. It is not part of the current deployment but is planned as the next stage of infrastructure development.
 
-![Architecture_Update](/images/2-Proposal/Architecture_Update.png)
+![Architecture_Update](/fcaj-workshop-quangttse196220-fptu/images/2-Proposal/Architecture_Update.png)
 
 In the proposed architecture, the frontend application will be separated from the backend server. The React/Vite frontend will be built into static files and stored in an Amazon S3 Frontend Bucket. Amazon CloudFront will distribute the frontend content to users with lower latency and improved availability.
 

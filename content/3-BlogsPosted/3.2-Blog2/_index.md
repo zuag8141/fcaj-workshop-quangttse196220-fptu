@@ -40,7 +40,7 @@ In the original architecture, public DNS records pointed directly to an Applicat
 
 The load balancer acted as the public entry point and forwarded incoming requests to an Auto Scaling group of [Amazon EC2](https://aws.amazon.com/ec2/) instances.
 
-![Scale to Win's initial architecture with an Application Load Balancer connecting directly to Amazon EC2 instances in an Auto Scaling group](/aws_internship/images/blog2/original-architecture.png)
+![Scale to Win's initial architecture with an Application Load Balancer connecting directly to Amazon EC2 instances in an Auto Scaling group](/fcaj-workshop-quangttse196220-fptu/images/3-BlogsPosted/blog2/original-architecture.png)
 
 Although this architecture supported normal application traffic, the Application Load Balancer remained directly exposed to large volumes of malicious requests.
 
@@ -48,7 +48,7 @@ Although this architecture supported normal application traffic, the Application
 
 The redesigned architecture placed Amazon CloudFront and AWS WAF in front of the load balancer.
 
-![The updated architecture with Amazon CloudFront and AWS WAF placed in front of the Application Load Balancer](/aws_internship/images/blog2/cloudfront-waf-architecture.png)
+![The updated architecture with Amazon CloudFront and AWS WAF placed in front of the Application Load Balancer](/fcaj-workshop-quangttse196220-fptu/images/3-BlogsPosted/blog2/cloudfront-waf-architecture.png)
 
 This architecture provided several important benefits.
 
@@ -85,7 +85,7 @@ Example:
 ```text
 x-stw-example-secret: <private-value>
 ```
-![Configure a custom header in Amazon CloudFront origin settings](/aws_internship/images/blog2/cloudfront-custom-header.png)
+![Configure a custom header in Amazon CloudFront origin settings](/fcaj-workshop-quangttse196220-fptu/images/3-BlogsPosted/blog2/cloudfront-custom-header.png)
 
 The Application Load Balancer listener inspected this header before forwarding the request to the application.
 
@@ -95,7 +95,7 @@ IF x-stw-example-secret contains the correct value
 ELSE
     Return HTTP 403
 ```
-![The Application Load Balancer listener rule verifies the shared secret header before forwarding the request](/aws_internship/images/blog2/alb-listener-secret-rule.png)
+![The Application Load Balancer listener rule verifies the shared secret header before forwarding the request](/fcaj-workshop-quangttse196220-fptu/images/3-BlogsPosted/blog2/alb-listener-secret-rule.png)
 
 This control prevented attackers from creating their own CloudFront distribution and configuring it to use the same Application Load Balancer as an origin.
 
@@ -224,9 +224,9 @@ For webhook providers, the team created an [AWS WAF IP set](https://docs.aws.ama
 
 A request to a webhook route was rejected when its source IP was not included in the approved IP set.
 
-![AWS WAF rule that allows machine traffic when the URI path and source IP address match the configured conditions](/aws_internship/images/blog2/waf-machine-traffic-rule-1.png)
+![AWS WAF rule that allows machine traffic when the URI path and source IP address match the configured conditions](/fcaj-workshop-quangttse196220-fptu/images/3-BlogsPosted/blog2/waf-machine-traffic-rule-1.png)
 
-![AWS WAF rule that allows machine traffic when the URI path and source IP address match the configured conditions](/aws_internship/images/blog2/waf-machine-traffic-rule-2.png)
+![AWS WAF rule that allows machine traffic when the URI path and source IP address match the configured conditions](/fcaj-workshop-quangttse196220-fptu/images/3-BlogsPosted/blog2/waf-machine-traffic-rule-2.png)
 
 Where possible, machine-to-machine traffic should also use stronger identity controls such as:
 
@@ -274,7 +274,7 @@ Extremely high-volume IP
     -> Request blocked
 ```
 
-![Rule evaluation order within the AWS WAF Web ACL](/aws_internship/images/blog2/waf-rule-priority.png)
+![Rule evaluation order within the AWS WAF Web ACL](/fcaj-workshop-quangttse196220-fptu/images/3-BlogsPosted/blog2/waf-rule-priority.png)
 
 This approach allowed Scale to Win to protect the application without unnecessarily blocking legitimate users working from shared networks.
 

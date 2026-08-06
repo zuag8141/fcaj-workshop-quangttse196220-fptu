@@ -49,7 +49,7 @@ The implementation considers the six Well-Architected pillars:
 
 Applying these principles helps Generali improve system resilience through automation and monitoring, strengthen security through [AWS Identity and Access Management (IAM)](https://aws.amazon.com/iam/) and network policies, optimize costs through right-sizing and automatic scaling, and minimize unnecessary resource consumption.
 
-![Architecture ](/aws_internship/images/blog1/blog1.png)
+![Architecture ](/fcaj-workshop-quangttse196220-fptu/images/3-BlogsPosted/blog1/blog1.png)
 
 The solution provides several major benefits:
 

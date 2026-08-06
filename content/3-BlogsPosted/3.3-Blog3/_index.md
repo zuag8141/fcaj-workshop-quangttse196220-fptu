@@ -90,7 +90,7 @@ The shorter this cycle becomes, the more effectively the agent can refine its ou
 
 A complete agentic development architecture can combine local testing, short-lived cloud environments, automated delivery pipelines, and production feedback.
 
-![High-level architecture enabling agentic development on AWS](/aws_internship/images/blog3/agentic-ai-development-architecture.png)
+![High-level architecture enabling agentic development on AWS](/fcaj-workshop-quangttse196220-fptu/images/3-BlogsPosted/blog3/agentic-ai-development-architecture.png)
 
 *Figure 1: A high-level architecture for agentic development, including local test loops, an ephemeral test stack, and an AI-triggered CI/CD pipeline.*
 
