@@ -14,12 +14,15 @@ permissions:
   contents: read
   pages: write
   id-token: write
+  # Needed to delete stale "github-pages" artifacts before uploading a new one
+  actions: write
 
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+# Allow only one concurrent deployment. Cancel older in-progress runs to prevent
+# overlapping runs from creating duplicate "github-pages" artifacts, which makes
+# actions/deploy-pages fail with "Multiple artifacts named github-pages".
 concurrency:
   group: "pages"
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 # Default to bash
 defaults:
@@ -56,6 +59,19 @@ jobs:
           hugo \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
+      - name: Clean stale github-pages artifacts for this run
+        # Every re-run keeps the same run ID and uploads a new immutable artifact,
+        # so a run can end up with multiple artifacts named "github-pages".
+        # actions/deploy-pages then fails with "Multiple artifacts named
+        # github-pages were unexpectedly found", so delete them before uploading.
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api "repos/${{ github.repository }}/actions/runs/${{ github.run_id }}/artifacts" --paginate \
+            --jq '.artifacts[] | select(.name == "github-pages") | .id' \
+            | while read -r id; do
+                gh api -X DELETE "repos/${{ github.repository }}/actions/artifacts/$id" || true
+              done
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
