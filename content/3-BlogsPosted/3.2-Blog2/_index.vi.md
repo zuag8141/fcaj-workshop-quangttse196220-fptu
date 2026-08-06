@@ -44,7 +44,7 @@ Trong kiến trúc ban đầu, các bản ghi DNS công khai trỏ trực tiếp
 
 Load balancer đóng vai trò là điểm truy cập công khai và chuyển tiếp các yêu cầu đến một Auto Scaling group gồm các máy chủ [Amazon EC2](https://aws.amazon.com/ec2/).
 
-![Kiến trúc ban đầu của Scale to Win với Application Load Balancer kết nối trực tiếp tới các máy chủ Amazon EC2 trong Auto Scaling group](./images/3-BlogsPosted/images/blog2/original-architecture.png)
+![Kiến trúc ban đầu của Scale to Win với Application Load Balancer kết nối trực tiếp tới các máy chủ Amazon EC2 trong Auto Scaling group](/images/3-BlogsPosted/images/blog2/original-architecture.png)
 
 Mặc dù kiến trúc này đáp ứng được lưu lượng ứng dụng thông thường, Application Load Balancer vẫn bị phơi trực tiếp trước lượng lớn yêu cầu độc hại.
 
@@ -52,7 +52,7 @@ Mặc dù kiến trúc này đáp ứng được lưu lượng ứng dụng thô
 
 Trong kiến trúc mới, Amazon CloudFront và AWS WAF được đặt phía trước load balancer.
 
-![Kiến trúc được cập nhật với Amazon CloudFront và AWS WAF được đặt phía trước Application Load Balancer](./images/3-BlogsPosted/blog2/cloudfront-waf-architecture.png)
+![Kiến trúc được cập nhật với Amazon CloudFront và AWS WAF được đặt phía trước Application Load Balancer](/images/3-BlogsPosted/blog2/cloudfront-waf-architecture.png)
 
 Kiến trúc này mang lại một số lợi ích quan trọng.
 
@@ -91,7 +91,7 @@ Ví dụ:
 ```text
 x-stw-example-secret: <private-value>
 ```
-![Cấu hình custom header trong Amazon CloudFront origin settings](./images/3-BlogsPosted/cloudfront-custom-header.png)
+![Cấu hình custom header trong Amazon CloudFront origin settings](/images/3-BlogsPosted/cloudfront-custom-header.png)
 
 Listener của Application Load Balancer kiểm tra header này trước khi chuyển tiếp yêu cầu đến ứng dụng.
 
@@ -101,7 +101,7 @@ NẾU x-stw-example-secret chứa giá trị chính xác
 NGƯỢC LẠI
     Trả về HTTP 403
 ```
-![Listener rule của Application Load Balancer kiểm tra shared secret header trước khi chuyển tiếp yêu cầu](./images/3-BlogsPosted/blog2/alb-listener-secret-rule.png)
+![Listener rule của Application Load Balancer kiểm tra shared secret header trước khi chuyển tiếp yêu cầu](/images/3-BlogsPosted/blog2/alb-listener-secret-rule.png)
 
 Biện pháp này ngăn kẻ tấn công tạo một CloudFront distribution riêng và cấu hình distribution đó sử dụng cùng một Application Load Balancer làm origin.
 
@@ -230,9 +230,9 @@ API client được thiết kế để nhận biết lỗi tạm thời và th�
 
 Một yêu cầu gửi đến webhook route sẽ bị từ chối nếu địa chỉ IP nguồn không nằm trong IP set được phê duyệt.
 
-![AWS WAF rule cho phép machine traffic khi URI path và địa chỉ IP nguồn khớp với điều kiện đã cấu hình](./images/3-BlogsPosted/blog2/waf-machine-traffic-rule-1.png)
+![AWS WAF rule cho phép machine traffic khi URI path và địa chỉ IP nguồn khớp với điều kiện đã cấu hình](/images/3-BlogsPosted/blog2/waf-machine-traffic-rule-1.png)
 
-![AWS WAF rule cho phép machine traffic khi URI path và địa chỉ IP nguồn khớp với điều kiện đã cấu hình](./images/3-BlogsPosted/blog2/waf-machine-traffic-rule-2.png)
+![AWS WAF rule cho phép machine traffic khi URI path và địa chỉ IP nguồn khớp với điều kiện đã cấu hình](/images/3-BlogsPosted/blog2/waf-machine-traffic-rule-2.png)
 
 Khi có thể, lưu lượng machine-to-machine cũng nên sử dụng những cơ chế xác thực mạnh hơn như:
 
@@ -280,7 +280,7 @@ Hành vi mong đợi như sau:
     -> Yêu cầu bị chặn
 ```
 
-![Thứ tự đánh giá các quy tắc trong AWS WAF Web ACL](./images/3-BlogsPosted/blog2/waf-rule-priority.png)
+![Thứ tự đánh giá các quy tắc trong AWS WAF Web ACL](/images/3-BlogsPosted/blog2/waf-rule-priority.png)
 
 Cách tiếp cận này cho phép Scale to Win bảo vệ ứng dụng mà không vô tình chặn những người dùng hợp lệ đang làm việc từ các mạng dùng chung.
 

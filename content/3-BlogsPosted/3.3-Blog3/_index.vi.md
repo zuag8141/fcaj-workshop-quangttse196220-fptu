@@ -90,7 +90,7 @@ Chu kỳ này càng ngắn, agent càng có thể tinh chỉnh kết quả hiệ
 
 Một kiến trúc phát triển agentic hoàn chỉnh có thể kết hợp kiểm thử cục bộ, môi trường đám mây ngắn hạn, pipeline triển khai tự động và phản hồi từ production.
 
-![Kiến trúc tổng quan hỗ trợ phát triển Agentic AI trên AWS](./images/3-BlogsPosted/blog3/agentic-ai-development-architecture.png)
+![Kiến trúc tổng quan hỗ trợ phát triển Agentic AI trên AWS](/images/3-BlogsPosted/blog3/agentic-ai-development-architecture.png)
 
 *Hình 1: Kiến trúc tổng quan cho phát triển agentic, gồm vòng kiểm thử cục bộ, test stack tạm thời và pipeline CI/CD được kích hoạt bởi AI.*
 
