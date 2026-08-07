@@ -1,6 +1,6 @@
 ---
 title: "Báo cáo thực tập"
-date: 2024-01-01
+date: 2026-08-06
 weight: 1
 chapter: false
 ---
@@ -17,7 +17,7 @@ chapter: false
 
 &emsp; **Ngành:** Kỹ thuật phần mềm
 
-&emsp; **Lớp:** AWS082025
+&emsp; **Lớp:** AWS052026
 
 &emsp; **Công ty thực tập:** Công ty TNHH Amazon Web Services Việt Nam
 
