@@ -1,7 +1,7 @@
 ---
 title: "Week 3 Worklog"
 date: "2026-06-06"
-weight: 1
+weight: 3
 chapter: false
 pre: " <b> 1.3. </b> "
 ---
@@ -16,11 +16,11 @@ pre: " <b> 1.3. </b> "
 ### Tasks to be carried out this week:
 | Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Learn about Amazon Relational Database Service (RDS) <br>&emsp; + Database Engine <br>&emsp; + DB Instance <br>&emsp; + Backup & Snapshot <br>&emsp; + Multi-AZ | 02/06/2026 | 02/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 3   | - **Practice:** <br>&emsp; + Launch Amazon RDS <br>&emsp; + Connect to the database from an application or SQL client <br>&emsp; + Perform basic CRUD operations | 03/06/2026 | 03/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Learn about Amazon DynamoDB <br>&emsp; + Table <br>&emsp; + Partition Key <br>&emsp; + Sort Key <br>&emsp; + Capacity Mode <br> - Practice creating tables and working with data | 04/06/2026 | 04/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn about Amazon ElastiCache <br>&emsp; + Redis <br>&emsp; + Memcached <br> - Learn about Amazon Lightsail and Amazon Lightsail Containers | 05/06/2026 | 05/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Deploy an application on Amazon Lightsail <br>&emsp; + Get familiar with Lightsail Containers <br>&emsp; + Compare Lightsail and EC2 | 06/06/2026 | 06/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 2   | - Learn about Amazon Relational Database Service (RDS) <br>&emsp; + Database Engine <br>&emsp; + DB Instance <br>&emsp; + Backup & Snapshot <br>&emsp; + Multi-AZ | 02/06/2026 | 02/06/2026      | <https://000005.awsstudygroup.com> |
+| 3   | - **Practice:** <br>&emsp; + Launch Amazon RDS <br>&emsp; + Connect to the database from an application or SQL client <br>&emsp; + Perform basic CRUD operations | 03/06/2026 | 03/06/2026      | <https://000005.awsstudygroup.com> |
+| 4   | - Learn about Amazon DynamoDB <br>&emsp; + Table <br>&emsp; + Partition Key <br>&emsp; + Sort Key <br>&emsp; + Capacity Mode <br> - Practice creating tables and working with data | 04/06/2026 | 04/06/2026      | <https://000060.awsstudygroup.com> |
+| 5   | - Learn about Amazon ElastiCache <br>&emsp; + Redis <br>&emsp; + Memcached <br> - Learn about Amazon Lightsail and Amazon Lightsail Containers | 05/06/2026 | 05/06/2026      | <https://000061.awsstudygroup.com> <br><br> <https://000045.awsstudygroup.com> |
+| 6   | - **Practice:** <br>&emsp; + Deploy an application on Amazon Lightsail <br>&emsp; + Get familiar with Lightsail Containers <br>&emsp; + Compare Lightsail and EC2 | 06/06/2026 | 06/06/2026      | <https://000046.awsstudygroup.com> <br><br> <https://000004.awsstudygroup.com> |
 
 
 ### Week 3 Achievements:

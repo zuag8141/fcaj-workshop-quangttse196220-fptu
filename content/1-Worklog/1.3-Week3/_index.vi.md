@@ -19,9 +19,9 @@ pre: " <b> 1.3. </b> "
 | --- | --------- | ------------ | --------------- | -------------- |
 | 2 | - Tìm hiểu Amazon Relational Database Service (RDS) <br>&emsp; + Database Engine <br>&emsp; + DB Instance <br>&emsp; + Backup & Snapshot <br>&emsp; + Multi-AZ | 02/06/2026 | 02/06/2026 | https://000005.awsstudygroup.com |
 | 3 | - **Thực hành:** <br>&emsp; + Khởi tạo Amazon RDS <br>&emsp; + Kết nối cơ sở dữ liệu từ ứng dụng hoặc SQL Client <br>&emsp; + Thực hiện các thao tác CRUD cơ bản | 03/06/2026 | 03/06/2026 | https://000005.awsstudygroup.com |
-| 4 | - Tìm hiểu Amazon DynamoDB <br>&emsp; + Table <br>&emsp; + Partition Key <br>&emsp; + Sort Key <br>&emsp; + Capacity Mode <br> - Thực hành tạo bảng và thao tác dữ liệu | 04/06/2026 | 04/06/2026 | https://000039.awsstudygroup.com |
-| 5 | - Tìm hiểu Amazon ElastiCache <br>&emsp; + Redis <br>&emsp; + Memcached <br> - Tìm hiểu Amazon Lightsail và Amazon Lightsail Containers | 05/06/2026 | 05/06/2026 | https://cloudjourney.awsstudygroup.com/ |
-| 6 | - **Thực hành:** <br>&emsp; + Triển khai ứng dụng trên Amazon Lightsail <br>&emsp; + Làm quen với Lightsail Containers <br>&emsp; + So sánh Lightsail và EC2 | 06/06/2026 | 06/06/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 4 | - Tìm hiểu Amazon DynamoDB <br>&emsp; + Table <br>&emsp; + Partition Key <br>&emsp; + Sort Key <br>&emsp; + Capacity Mode <br> - Thực hành tạo bảng và thao tác dữ liệu | 04/06/2026 | 04/06/2026 | https://000060.awsstudygroup.com |
+| 5 | - Tìm hiểu Amazon ElastiCache <br>&emsp; + Redis <br>&emsp; + Memcached <br> - Tìm hiểu Amazon Lightsail và Amazon Lightsail Containers | 05/06/2026 | 05/06/2026 | https://000061.awsstudygroup.com <br><br> https://000045.awsstudygroup.com |
+| 6 | - **Thực hành:** <br>&emsp; + Triển khai ứng dụng trên Amazon Lightsail <br>&emsp; + Làm quen với Lightsail Containers <br>&emsp; + So sánh Lightsail và EC2 | 06/06/2026 | 06/06/2026 | https://000046.awsstudygroup.com <br><br> https://000004.awsstudygroup.com |
 
 ### Kết quả đạt được tuần 3:
 
