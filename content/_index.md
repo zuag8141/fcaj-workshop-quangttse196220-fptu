@@ -19,6 +19,8 @@ chapter: false
 
 &emsp; **Major:** Software Engineering
 
+&emsp; **Class:** AWS052026
+
 &emsp; **Internship Company:** Công ty TNHH Amazon Web Services Việt Nam
 
 &emsp; **Internship Position:** Workforce Bootcamp - First Cloud AI Journey
