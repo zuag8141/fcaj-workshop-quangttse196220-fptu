@@ -1,6 +1,6 @@
 ---
 title: "Week 11 Worklog"
-date: "2026-08-01"
+date: "2026-08-07"
 weight: 11
 chapter: false
 pre: " <b> 1.11. </b> "
@@ -17,11 +17,11 @@ pre: " <b> 1.11. </b> "
 ### Tasks to be carried out this week:
 | Day | Task | Start date | Completion date | Reference materials |
 | --- | --- | --- | --- | --- |
-| Monday | - Review the admin requirements and identify the pages to update. <br> - Analyze the current group management pages and the Settings page. <br> - Plan the frontend changes for the week. | 27/07/2026 | 27/07/2026 | |
-| Tuesday | - Update the admin frontend with the commit `update admin fe`. <br>&emsp; + Improve the Group Detail page. <br>&emsp; + Improve the My Groups page and update the group data types. <br>&emsp; + Update the Settings page. <br>&emsp; + Update the application routing (AppRoutes) and the Sidebar. <br> - Create and merge Pull Request `#16`. | 28/07/2026 | 28/07/2026 | |
-| Wednesday | - Verify the admin pages after the merge. <br> - Test the Group Detail and My Groups flows. <br> - Check the Settings page and navigation. | 29/07/2026 | 29/07/2026 | |
-| Thursday | - Test the admin interfaces against the backend APIs. <br> - Fix any issues found during testing. <br> - Synchronize the frontend branch with the main branch. | 30/07/2026 | 30/07/2026 | |
-| Friday | - Review the final merged changes. <br> - Run regression tests on the updated screens. <br> - Record the results and prepare the weekly report. | 31/07/2026 | 31/07/2026 | |
+| 2 | - Review the admin requirements and identify the pages to update. <br> - Analyze the current group management pages and the Settings page. <br> - Plan the frontend changes for the week. | 03/08/2026 | 03/08/2026 | |
+| 3 | - Update the admin frontend with the commit `update admin fe`. <br>&emsp; + Improve the Group Detail page. <br>&emsp; + Improve the My Groups page and update the group data types. <br>&emsp; + Update the Settings page. <br>&emsp; + Update the application routing (AppRoutes) and the Sidebar. <br> - Create and merge Pull Request `#16`. | 04/08/2026 | 04/08/2026 | |
+| 4 | - Verify the admin pages after the merge. <br> - Test the Group Detail and My Groups flows. <br> - Check the Settings page and navigation. | 05/08/2026 | 05/08/2026 | |
+| 5 | - Test the admin interfaces against the backend APIs. <br> - Fix any issues found during testing. <br> - Synchronize the frontend branch with the main branch. | 06/08/2026 | 06/08/2026 | |
+| 6 | - Review the final merged changes. <br> - Run regression tests on the updated screens. <br> - Record the results and prepare the weekly report. | 07/08/2026 | 07/08/2026 | |
 
 ### Results achieved in Week 11:
 

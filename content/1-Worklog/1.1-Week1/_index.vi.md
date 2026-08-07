@@ -1,6 +1,6 @@
 ---
 title: "Worklog Tuần 1"
-date: "2026-05-23"
+date: "2026-05-29"
 weight: 1
 chapter: false
 pre: " <b> 1.1. </b> "
@@ -14,11 +14,11 @@ pre: " <b> 1.1. </b> "
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | --------- | ------------ | --------------- | -------------- |
-| 2 | - Tìm hiểu chương trình First Cloud AI Journey <br> - Đọc quy định và chuẩn bị môi trường học tập | 19/05/2026 | 19/05/2026 | https://cloudjourney.awsstudygroup.com/ |
-| 3 | - Tìm hiểu Cloud Computing và AWS <br> - Khám phá các nhóm dịch vụ chính: Compute, Storage, Database, Networking, Security | 20/05/2026 | 20/05/2026 | https://cloudjourney.awsstudygroup.com/ |
-| 4 | - Tạo AWS Account <br> - Tìm hiểu AWS Management Console <br> - Cài đặt và cấu hình AWS CLI <br> - **Thực hành:** <br>&emsp; + Đăng nhập AWS Console <br>&emsp; + Cấu hình AWS CLI bằng Access Key | 21/05/2026 | 21/05/2026 | https://000001.awsstudygroup.com |
-| 5 | - Tìm hiểu Amazon EC2 <br>&emsp; + Instance Types <br>&emsp; + Amazon Machine Image (AMI) <br>&emsp; + Amazon EBS <br>&emsp; + Security Group <br>&emsp; + Key Pair <br> - Tìm hiểu Elastic IP | 22/05/2026 | 22/05/2026 | https://000004.awsstudygroup.com |
-| 6 | - **Thực hành:** <br>&emsp; + Khởi tạo EC2 Instance <br>&emsp; + Kết nối EC2 bằng SSH <br>&emsp; + Quản lý Security Group <br>&emsp; + Gắn và kiểm tra EBS Volume | 23/05/2026 | 23/05/2026 | https://000004.awsstudygroup.com |
+| 2 | - Tìm hiểu chương trình First Cloud AI Journey <br> - Đọc quy định và chuẩn bị môi trường học tập | 25/05/2026 | 25/05/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 3 | - Tìm hiểu Cloud Computing và AWS <br> - Khám phá các nhóm dịch vụ chính: Compute, Storage, Database, Networking, Security | 26/05/2026 | 26/05/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 4 | - Tạo AWS Account <br> - Tìm hiểu AWS Management Console <br> - Cài đặt và cấu hình AWS CLI <br> - **Thực hành:** <br>&emsp; + Đăng nhập AWS Console <br>&emsp; + Cấu hình AWS CLI bằng Access Key | 27/05/2026 | 27/05/2026 | https://000001.awsstudygroup.com |
+| 5 | - Tìm hiểu Amazon EC2 <br>&emsp; + Instance Types <br>&emsp; + Amazon Machine Image (AMI) <br>&emsp; + Amazon EBS <br>&emsp; + Security Group <br>&emsp; + Key Pair <br> - Tìm hiểu Elastic IP | 28/05/2026 | 28/05/2026 | https://000004.awsstudygroup.com |
+| 6 | - **Thực hành:** <br>&emsp; + Khởi tạo EC2 Instance <br>&emsp; + Kết nối EC2 bằng SSH <br>&emsp; + Quản lý Security Group <br>&emsp; + Gắn và kiểm tra EBS Volume | 29/05/2026 | 29/05/2026 | https://000004.awsstudygroup.com |
 
 ### Kết quả đạt được tuần 1:
 

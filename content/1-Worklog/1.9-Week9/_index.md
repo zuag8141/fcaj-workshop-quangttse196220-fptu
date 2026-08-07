@@ -1,6 +1,6 @@
 ---
 title: "Week 9 Worklog"
-date: "2026-07-18"
+date: "2026-07-24"
 weight: 9
 chapter: false
 pre: " <b> 1.9. </b> "
@@ -18,11 +18,11 @@ pre: " <b> 1.9. </b> "
 
 | Day | Task | Start date | Completion date | Reference materials |
 | --- | --- | --- | --- | --- |
-| Monday | - Review the project requirements and the system's main workflows. <br> - Understand the team's task division and my role in frontend development. <br> - Analyze the user flows: group management, expense tracking, and settlements. | 14/07/2026 | 14/07/2026 | |
-| Tuesday | - Explore the frontend source code structure (React + Vite + TypeScript). <br> - Review the routing configuration and page organization. <br> - Understand the data models shared between the frontend and backend. | 15/07/2026 | 15/07/2026 | |
-| Wednesday | - Set up the local development environment for the frontend. <br> - Run the frontend project and connect it to the backend API. <br> - Familiarize myself with the shared UI components and styling conventions. | 16/07/2026 | 16/07/2026 | |
-| Thursday | - Review the existing UI screens and identify areas to improve. <br> - Understand how the frontend calls the backend APIs. <br> - Prepare a list of frontend tasks to implement in the following weeks. | 17/07/2026 | 17/07/2026 | |
-| Friday | - Finalize the frontend development plan with the team. <br> - Set up the Git workflow and create a dedicated frontend branch. <br> - Record the week's results and prepare the weekly report. | 18/07/2026 | 18/07/2026 | |
+| 2 | - Review the project requirements and the system's main workflows. <br> - Understand the team's task division and my role in frontend development. <br> - Analyze the user flows: group management, expense tracking, and settlements. | 20/07/2026 | 20/07/2026 | |
+| 3 | - Explore the frontend source code structure (React + Vite + TypeScript). <br> - Review the routing configuration and page organization. <br> - Understand the data models shared between the frontend and backend. | 21/07/2026 | 21/07/2026 | |
+| 4 | - Set up the local development environment for the frontend. <br> - Run the frontend project and connect it to the backend API. <br> - Familiarize myself with the shared UI components and styling conventions. | 22/07/2026 | 22/07/2026 | |
+| 5 | - Review the existing UI screens and identify areas to improve. <br> - Understand how the frontend calls the backend APIs. <br> - Prepare a list of frontend tasks to implement in the following weeks. | 23/07/2026 | 23/07/2026 | |
+| 6 | - Finalize the frontend development plan with the team. <br> - Set up the Git workflow and create a dedicated frontend branch. <br> - Record the week's results and prepare the weekly report. | 24/07/2026 | 24/07/2026 | |
 
 ### Results achieved in Week 9:
 

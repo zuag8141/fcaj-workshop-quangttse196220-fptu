@@ -1,6 +1,6 @@
 ---
 title: "Worklog Tuần 12"
-date: "2026-08-06"
+date: "2026-08-07"
 weight: 12
 chapter: false
 pre: " <b> 1.12. </b> "
@@ -17,11 +17,11 @@ pre: " <b> 1.12. </b> "
 
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | --------- | ------------ | --------------- | -------------- |
-| 2 | - Rà soát kế hoạch triển khai frontend và xác định các bước build | 01/08/2026 | 01/08/2026 | |
-| 3 | - Build frontend cho production và sửa các lỗi build | 02/08/2026 | 02/08/2026 | |
-| 4 | - Hỗ trợ upload bản build frontend lên S3 bucket và xác minh khả năng truy cập | 03/08/2026 | 03/08/2026 | |
-| 5 | - Xác minh luồng API frontend-to-backend và luồng upload receipt trên môi trường đã triển khai | 04/08/2026 | 04/08/2026 | |
-| 6 | - Kiểm thử toàn bộ hệ thống sau khi triển khai và ghi nhận các vấn đề | 05/08/2026 | 05/08/2026 | |
+| 2 | - Rà soát kế hoạch triển khai frontend và xác định các bước build | 10/08/2026 | 10/08/2026 | |
+| 3 | - Build frontend cho production và sửa các lỗi build | 11/08/2026 | 11/08/2026 | |
+| 4 | - Hỗ trợ upload bản build frontend lên S3 bucket và xác minh khả năng truy cập | 12/08/2026 | 12/08/2026 | |
+| 5 | - Xác minh luồng API frontend-to-backend và luồng upload receipt trên môi trường đã triển khai | 13/08/2026 | 13/08/2026 | |
+| 6 | - Kiểm thử toàn bộ hệ thống sau khi triển khai và ghi nhận các vấn đề | 14/08/2026 | 14/08/2026 | |
 
 ### Kết quả đạt được tuần 12:
 

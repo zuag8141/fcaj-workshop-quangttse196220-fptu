@@ -1,6 +1,6 @@
 ---
 title: "Worklog Tuần 2"
-date: "2026-05-30"
+date: "2026-06-05"
 weight: 2
 chapter: false
 pre: " <b> 1.2. </b> "
@@ -17,11 +17,11 @@ pre: " <b> 1.2. </b> "
 
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | --------- | ------------ | --------------- | -------------- |
-| 2 | - Tìm hiểu AWS Identity and Access Management (IAM) <br>&emsp; + User <br>&emsp; + Group <br>&emsp; + Role <br>&emsp; + Policy <br> - **Thực hành:** <br>&emsp; + Tạo IAM User <br>&emsp; + Gán quyền bằng Policy | 26/05/2026 | 26/05/2026 | https://000002.awsstudygroup.com |
-| 3 | - Tìm hiểu Amazon Virtual Private Cloud (VPC) <br>&emsp; + CIDR <br>&emsp; + Public/Private Subnet <br>&emsp; + Internet Gateway <br>&emsp; + Route Table | 27/05/2026 | 27/05/2026 | https://000003.awsstudygroup.com |
-| 4 | - Tìm hiểu Amazon S3 <br>&emsp; + Bucket <br>&emsp; + Object <br>&emsp; + Bucket Policy <br> - **Thực hành:** <br>&emsp; + Tạo S3 Bucket <br>&emsp; + Upload dữ liệu <br>&emsp; + Host Static Website | 28/05/2026 | 28/05/2026 | https://000057.awsstudygroup.com |
-| 5 | - Tìm hiểu Amazon Route 53 <br> - Tìm hiểu Amazon CloudFront <br> - Tìm hiểu Lambda@Edge và các trường hợp sử dụng | 29/05/2026 | 29/05/2026 | https://000010.awsstudygroup.com <br><br> https://000094.awsstudygroup.com <br><br> https://000130.awsstudygroup.com |
-| 6 | - **Thực hành:** <br>&emsp; + Triển khai Website tĩnh trên Amazon S3 <br>&emsp; + Phân phối nội dung bằng CloudFront <br>&emsp; + Kiểm tra khả năng truy cập và hiệu năng | 30/05/2026 | 30/05/2026 | https://000057.awsstudygroup.com <br><br> https://000094.awsstudygroup.com |
+| 2 | - Tìm hiểu AWS Identity and Access Management (IAM) <br>&emsp; + User <br>&emsp; + Group <br>&emsp; + Role <br>&emsp; + Policy <br> - **Thực hành:** <br>&emsp; + Tạo IAM User <br>&emsp; + Gán quyền bằng Policy | 01/06/2026 | 01/06/2026 | https://000002.awsstudygroup.com |
+| 3 | - Tìm hiểu Amazon Virtual Private Cloud (VPC) <br>&emsp; + CIDR <br>&emsp; + Public/Private Subnet <br>&emsp; + Internet Gateway <br>&emsp; + Route Table | 02/06/2026 | 02/06/2026 | https://000003.awsstudygroup.com |
+| 4 | - Tìm hiểu Amazon S3 <br>&emsp; + Bucket <br>&emsp; + Object <br>&emsp; + Bucket Policy <br> - **Thực hành:** <br>&emsp; + Tạo S3 Bucket <br>&emsp; + Upload dữ liệu <br>&emsp; + Host Static Website | 03/06/2026 | 03/06/2026 | https://000057.awsstudygroup.com |
+| 5 | - Tìm hiểu Amazon Route 53 <br> - Tìm hiểu Amazon CloudFront <br> - Tìm hiểu Lambda@Edge và các trường hợp sử dụng | 04/06/2026 | 04/06/2026 | https://000010.awsstudygroup.com <br><br> https://000094.awsstudygroup.com <br><br> https://000130.awsstudygroup.com |
+| 6 | - **Thực hành:** <br>&emsp; + Triển khai Website tĩnh trên Amazon S3 <br>&emsp; + Phân phối nội dung bằng CloudFront <br>&emsp; + Kiểm tra khả năng truy cập và hiệu năng | 05/06/2026 | 05/06/2026 | https://000057.awsstudygroup.com <br><br> https://000094.awsstudygroup.com |
 
 ### Kết quả đạt được tuần 2:
 

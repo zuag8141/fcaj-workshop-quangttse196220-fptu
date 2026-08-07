@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 6. </b> "
 ---
 
-Trong suốt thời gian thực tập tại **Công ty TNHH Amazon Web Services Vietnam** từ **18/05/2026** đến **09/08/2026**, em đã có cơ hội học hỏi, rèn luyện và tiếp cận các kiến thức về điện toán đám mây thông qua chương trình FCJ.  
+Trong suốt thời gian thực tập tại **Công ty TNHH Amazon Web Services Vietnam** từ **25/05/2026** đến **17/08/2026**, em đã có cơ hội học hỏi, rèn luyện và tiếp cận các kiến thức về điện toán đám mây thông qua chương trình FCJ.  
 
 Trong quá trình thực tập, em đã tham gia các workshop và bài thực hành về AWS, qua đó tìm hiểu thêm về các dịch vụ trên nền tảng đám mây, cách sử dụng tài liệu kỹ thuật và phương pháp tiếp cận các công nghệ mới. Những kiến thức này giúp em có cái nhìn rõ hơn về Cloud Computing và cách AWS được ứng dụng trong thực tế.  
 

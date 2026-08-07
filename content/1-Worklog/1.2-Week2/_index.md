@@ -1,6 +1,6 @@
 ---
 title: "Week 2 Worklog"
-date: "2026-05-30"
+date: "2026-06-05"
 weight: 2
 chapter: false
 pre: " <b> 1.2. </b> "
@@ -16,11 +16,11 @@ pre: " <b> 1.2. </b> "
 ### Tasks to be carried out this week:
 | Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Learn AWS Identity and Access Management (IAM) <br>&emsp; + User <br>&emsp; + Group <br>&emsp; + Role <br>&emsp; + Policy <br> - **Practice:** <br>&emsp; + Create an IAM user <br>&emsp; + Grant permissions using policies | 26/05/2026 | 26/05/2026      | <https://000002.awsstudygroup.com> |
-| 3   | - Learn Amazon Virtual Private Cloud (VPC) <br>&emsp; + CIDR <br>&emsp; + Public/Private Subnet <br>&emsp; + Internet Gateway <br>&emsp; + Route Table | 27/05/2026 | 27/05/2026      | <https://000003.awsstudygroup.com> |
-| 4   | - Learn Amazon S3 <br>&emsp; + Bucket <br>&emsp; + Object <br>&emsp; + Bucket Policy <br> - **Practice:** <br>&emsp; + Create an S3 bucket <br>&emsp; + Upload data <br>&emsp; + Host a static website | 28/05/2026 | 28/05/2026      | <https://000057.awsstudygroup.com> |
-| 5   | - Learn Amazon Route 53 <br> - Learn Amazon CloudFront <br> - Learn Lambda@Edge and its use cases | 29/05/2026 | 29/05/2026      | <https://000010.awsstudygroup.com> <br><br> <https://000094.awsstudygroup.com> <br><br> <https://000130.awsstudygroup.com> |
-| 6   | - **Practice:** <br>&emsp; + Deploy a static website on Amazon S3 <br>&emsp; + Distribute content with CloudFront <br>&emsp; + Check accessibility and performance | 30/05/2026 | 30/05/2026      | <https://000057.awsstudygroup.com> <br><br> <https://000094.awsstudygroup.com> |
+| 2   | - Learn AWS Identity and Access Management (IAM) <br>&emsp; + User <br>&emsp; + Group <br>&emsp; + Role <br>&emsp; + Policy <br> - **Practice:** <br>&emsp; + Create an IAM user <br>&emsp; + Grant permissions using policies | 01/06/2026 | 01/06/2026      | <https://000002.awsstudygroup.com> |
+| 3   | - Learn Amazon Virtual Private Cloud (VPC) <br>&emsp; + CIDR <br>&emsp; + Public/Private Subnet <br>&emsp; + Internet Gateway <br>&emsp; + Route Table | 02/06/2026 | 02/06/2026      | <https://000003.awsstudygroup.com> |
+| 4   | - Learn Amazon S3 <br>&emsp; + Bucket <br>&emsp; + Object <br>&emsp; + Bucket Policy <br> - **Practice:** <br>&emsp; + Create an S3 bucket <br>&emsp; + Upload data <br>&emsp; + Host a static website | 03/06/2026 | 03/06/2026      | <https://000057.awsstudygroup.com> |
+| 5   | - Learn Amazon Route 53 <br> - Learn Amazon CloudFront <br> - Learn Lambda@Edge and its use cases | 04/06/2026 | 04/06/2026      | <https://000010.awsstudygroup.com> <br><br> <https://000094.awsstudygroup.com> <br><br> <https://000130.awsstudygroup.com> |
+| 6   | - **Practice:** <br>&emsp; + Deploy a static website on Amazon S3 <br>&emsp; + Distribute content with CloudFront <br>&emsp; + Check accessibility and performance | 05/06/2026 | 05/06/2026      | <https://000057.awsstudygroup.com> <br><br> <https://000094.awsstudygroup.com> |
 
 
 ### Week 2 Achievements:

@@ -1,6 +1,6 @@
 ---
 title: "Week 12 Worklog"
-date: "2026-08-06"
+date: "2026-08-07"
 weight: 12
 chapter: false
 pre: " <b> 1.12. </b> "
@@ -16,11 +16,11 @@ pre: " <b> 1.12. </b> "
 ### Tasks to be carried out this week:
 | Day | Task | Start Date | Completion Date | Reference Materials |
 | --- | --- | --- | --- | --- |
-| Monday | Review the frontend deployment plan and identify the build steps. | 01/08/2026 | 01/08/2026 | |
-| Tuesday | Build the frontend for production and fix any build errors. | 02/08/2026 | 02/08/2026 | |
-| Wednesday | Support uploading the frontend build to the S3 bucket and verify access. | 03/08/2026 | 03/08/2026 | |
-| Thursday | Verify the frontend-to-backend API flow and the receipt upload flow on the deployed environment. | 04/08/2026 | 04/08/2026 | |
-| Friday | Test the complete system after deployment and document any issues. | 05/08/2026 | 05/08/2026 | |
+| 2 | Review the frontend deployment plan and identify the build steps. | 10/08/2026 | 10/08/2026 | |
+| 3 | Build the frontend for production and fix any build errors. | 11/08/2026 | 11/08/2026 | |
+| 4 | Support uploading the frontend build to the S3 bucket and verify access. | 12/08/2026 | 12/08/2026 | |
+| 5 | Verify the frontend-to-backend API flow and the receipt upload flow on the deployed environment. | 13/08/2026 | 13/08/2026 | |
+| 6 | Test the complete system after deployment and document any issues. | 14/08/2026 | 14/08/2026 | |
 
 ### Results achieved in Week 12:
 

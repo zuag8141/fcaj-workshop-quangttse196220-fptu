@@ -1,6 +1,6 @@
 ---
 title: "Worklog Tuần 11"
-date: "2026-08-01"
+date: "2026-08-07"
 weight: 11
 chapter: false
 pre: " <b> 1.11. </b> "
@@ -18,11 +18,11 @@ pre: " <b> 1.11. </b> "
 
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | --------- | ------------ | --------------- | -------------- |
-| 2 | - Rà soát yêu cầu admin và xác định các trang cần cập nhật <br> - Phân tích các trang quản lý nhóm và trang Settings hiện tại <br> - Lên kế hoạch thay đổi frontend trong tuần | 27/07/2026 | 27/07/2026 | |
-| 3 | - Cập nhật frontend admin với commit `update admin fe` <br>&emsp; + Cải thiện trang Group Detail <br>&emsp; + Cải thiện trang My Groups và cập nhật group data types <br>&emsp; + Cập nhật trang Settings <br>&emsp; + Cập nhật routing (AppRoutes) và Sidebar <br> - Tạo và merge Pull Request `#16` | 28/07/2026 | 28/07/2026 | |
-| 4 | - Xác minh các trang admin sau khi merge <br> - Test luồng Group Detail và My Groups <br> - Kiểm tra trang Settings và điều hướng | 29/07/2026 | 29/07/2026 | |
-| 5 | - Test giao diện admin với API backend <br> - Sửa các vấn đề phát sinh trong quá trình test <br> - Đồng bộ branch frontend với nhánh main | 30/07/2026 | 30/07/2026 | |
-| 6 | - Rà soát các thay đổi cuối cùng đã merge <br> - Chạy regression test trên các màn hình đã cập nhật <br> - Ghi nhận kết quả và chuẩn bị báo cáo tuần | 31/07/2026 | 31/07/2026 | |
+| 2 | - Rà soát yêu cầu admin và xác định các trang cần cập nhật <br> - Phân tích các trang quản lý nhóm và trang Settings hiện tại <br> - Lên kế hoạch thay đổi frontend trong tuần | 03/08/2026 | 03/08/2026 | |
+| 3 | - Cập nhật frontend admin với commit `update admin fe` <br>&emsp; + Cải thiện trang Group Detail <br>&emsp; + Cải thiện trang My Groups và cập nhật group data types <br>&emsp; + Cập nhật trang Settings <br>&emsp; + Cập nhật routing (AppRoutes) và Sidebar <br> - Tạo và merge Pull Request `#16` | 04/08/2026 | 04/08/2026 | |
+| 4 | - Xác minh các trang admin sau khi merge <br> - Test luồng Group Detail và My Groups <br> - Kiểm tra trang Settings và điều hướng | 05/08/2026 | 05/08/2026 | |
+| 5 | - Test giao diện admin với API backend <br> - Sửa các vấn đề phát sinh trong quá trình test <br> - Đồng bộ branch frontend với nhánh main | 06/08/2026 | 06/08/2026 | |
+| 6 | - Rà soát các thay đổi cuối cùng đã merge <br> - Chạy regression test trên các màn hình đã cập nhật <br> - Ghi nhận kết quả và chuẩn bị báo cáo tuần | 07/08/2026 | 07/08/2026 | |
 
 ### Kết quả đạt được tuần 11:
 

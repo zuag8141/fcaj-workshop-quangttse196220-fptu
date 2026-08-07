@@ -1,6 +1,6 @@
 ---
 title: "Week 4 Worklog"
-date: "2026-06-13"
+date: "2026-06-19"
 weight: 4
 chapter: false
 pre: " <b> 1.4. </b> "
@@ -15,11 +15,11 @@ pre: " <b> 1.4. </b> "
 ### Tasks to be carried out this week:
 | Day | Task                                                                                                                                                                                                              | Start Date | End Date   | Reference                          |
 | --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | ---------- | ---------------------------------- |
-| 2   | - Learn the fundamentals of VPC Peering: how it works, limitations, routing behavior <br> - Learn about the concept of peering inside a VPC                                                                       | 09/06/2026 | 09/06/2026 | <https://000019.awsstudygroup.com> |
-| 3   | - **Hands-on:** <br>&emsp; + Create EC2 instances in multiple VPCs and configure routing <br>&emsp; + Verify NACLs and Security Groups when using peering <br>&emsp; + Finalize the peering setup                 | 10/06/2026 | 10/06/2026 | <https://000019.awsstudygroup.com> |
-| 4   | - Learn about Transit Gateway <br> - **Hands-on:** <br>&emsp; + Deploy a TGW <br>&emsp; + Set up routing between VPCs and the TGW                                                                                 | 11/06/2026 | 11/06/2026 | <https://000020.awsstudygroup.com> |
-| 5   | - **Hands-on:** <br>&emsp; + Create a Transit Gateway connection <br>&emsp; + Create a TGW Route Table <br>&emsp; + Map VPC routes to the TGW <br>&emsp; + Final connectivity check between multiple VPCs via TGW | 02/10/2025 | 02/10/2025 | <https://000020.awsstudygroup.com> |
-|     | - Clean up all lab resources <br> - Consolidate knowledge of Peering and Transit Gateway                                                                                                                          | 12/06/2026 | 12/06/2026 | <https://000020.awsstudygroup.com> |
+| 2   | - Learn the fundamentals of VPC Peering: how it works, limitations, routing behavior <br> - Learn about the concept of peering inside a VPC                                                                       | 15/06/2026 | 15/06/2026 | <https://000019.awsstudygroup.com> |
+| 3   | - **Hands-on:** <br>&emsp; + Create EC2 instances in multiple VPCs and configure routing <br>&emsp; + Verify NACLs and Security Groups when using peering <br>&emsp; + Finalize the peering setup                 | 16/06/2026 | 16/06/2026 | <https://000019.awsstudygroup.com> |
+| 4   | - Learn about Transit Gateway <br> - **Hands-on:** <br>&emsp; + Deploy a TGW <br>&emsp; + Set up routing between VPCs and the TGW                                                                                 | 17/06/2026 | 17/06/2026 | <https://000020.awsstudygroup.com> |
+| 5   | - **Hands-on:** <br>&emsp; + Create a Transit Gateway connection <br>&emsp; + Create a TGW Route Table <br>&emsp; + Map VPC routes to the TGW <br>&emsp; + Final connectivity check between multiple VPCs via TGW | 18/06/2026 | 18/06/2026 | <https://000020.awsstudygroup.com> |
+| 6   | - Clean up all lab resources <br> - Consolidate knowledge of Peering and Transit Gateway                                                                                                                          | 19/06/2026 | 19/06/2026 | <https://000020.awsstudygroup.com> |
 
 
 ### Week 4 Achievements:

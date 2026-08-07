@@ -1,6 +1,6 @@
 ---
 title: "Worklog Tuần 9"
-date: "2026-07-18"
+date: "2026-07-24"
 weight: 9
 chapter: false
 pre: " <b> 1.9. </b> "
@@ -18,11 +18,11 @@ pre: " <b> 1.9. </b> "
 
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | --------- | ------------ | --------------- | -------------- |
-| 2 | - Xem lại yêu cầu dự án và các luồng chính của hệ thống <br> - Hiểu sự phân chia công việc của nhóm và vai trò frontend của tôi <br> - Phân tích luồng người dùng: quản lý nhóm, theo dõi chi tiêu và settlement | 14/07/2026 | 14/07/2026 | |
-| 3 | - Khám phá cấu trúc source code frontend (React + Vite + TypeScript) <br> - Rà soát cấu hình routing và cách tổ chức trang <br> - Hiểu các data model dùng chung giữa frontend và backend | 15/07/2026 | 15/07/2026 | |
-| 4 | - Thiết lập môi trường phát triển local cho frontend <br> - Chạy dự án frontend và kết nối với API backend <br> - Làm quen với các component dùng chung và quy ước styling | 16/07/2026 | 16/07/2026 | |
-| 5 | - Rà soát các màn hình UI hiện có và xác định chỗ cần cải thiện <br> - Hiểu cách frontend gọi API backend <br> - Chuẩn bị danh sách công việc frontend cho các tuần sau | 17/07/2026 | 17/07/2026 | |
-| 6 | - Hoàn thiện kế hoạch phát triển frontend cùng nhóm <br> - Thiết lập Git workflow và tạo branch frontend riêng <br> - Ghi nhận kết quả và chuẩn bị báo cáo tuần | 18/07/2026 | 18/07/2026 | |
+| 2 | - Xem lại yêu cầu dự án và các luồng chính của hệ thống <br> - Hiểu sự phân chia công việc của nhóm và vai trò frontend của tôi <br> - Phân tích luồng người dùng: quản lý nhóm, theo dõi chi tiêu và settlement | 20/07/2026 | 20/07/2026 | |
+| 3 | - Khám phá cấu trúc source code frontend (React + Vite + TypeScript) <br> - Rà soát cấu hình routing và cách tổ chức trang <br> - Hiểu các data model dùng chung giữa frontend và backend | 21/07/2026 | 21/07/2026 | |
+| 4 | - Thiết lập môi trường phát triển local cho frontend <br> - Chạy dự án frontend và kết nối với API backend <br> - Làm quen với các component dùng chung và quy ước styling | 22/07/2026 | 22/07/2026 | |
+| 5 | - Rà soát các màn hình UI hiện có và xác định chỗ cần cải thiện <br> - Hiểu cách frontend gọi API backend <br> - Chuẩn bị danh sách công việc frontend cho các tuần sau | 23/07/2026 | 23/07/2026 | |
+| 6 | - Hoàn thiện kế hoạch phát triển frontend cùng nhóm <br> - Thiết lập Git workflow và tạo branch frontend riêng <br> - Ghi nhận kết quả và chuẩn bị báo cáo tuần | 24/07/2026 | 24/07/2026 | |
 
 ### Kết quả đạt được tuần 9:
 

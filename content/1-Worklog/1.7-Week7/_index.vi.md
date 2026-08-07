@@ -1,6 +1,6 @@
 ---
 title: "Worklog Tuần 7"
-date: "2026-07-04"
+date: "2026-07-10"
 weight: 7
 chapter: false
 pre: " <b> 1.7. </b> "
@@ -16,11 +16,11 @@ pre: " <b> 1.7. </b> "
 
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | --------- | ------------ | --------------- | -------------- |
-| 2 | - Tìm hiểu nền tảng IAM: user, group, role, policy <br> - Hiểu policy evaluation: explicit deny, implicit deny, allow | 30/06/2026 | 30/06/2026 | <https://youtu.be/tsobAlSg19g?si=9f3mlIWPtrCcNuKg> <br><br> <https://youtu.be/N_vlJGAqZxo?si=e8oiWCObco95CoKh> |
-| 3 | - **Thực hành:** <br>&emsp; + Tạo user/group/role <br>&emsp; + Gán inline & managed policies <br>&emsp; + Kiểm tra quyền truy cập S3/EC2 theo các policy khác nhau <br> - Tìm hiểu permission boundaries và session policies | 01/07/2026 | 01/07/2026 | <https://000028.awsstudygroup.com> |
-| 4 | - Tìm hiểu AWS Organizations: cấu trúc OU, mô hình multi-account <br> - Hiểu khái niệm SCP, deny list và allow list | 02/07/2026 | 02/07/2026 | <https://youtu.be/5oQY8Rogz9Y?si=h8DlUb8ZLI4HbbvM> <br><br> <https://youtu.be/NW1xrMkNMjU?si=dhT0T3y2JYVK8QwT> |
-| 5 | - **Thực hành:** <br>&emsp; + Tạo Organization + OU <br>&emsp; + Áp dụng SCP deny EC2 / deny S3 <br>&emsp; + Kiểm tra hiệu lực SCP kết hợp với IAM policies <br>&emsp; + Sắp xếp lại OU, xóa SCP | 03/07/2026 | 03/07/2026 | <https://000030.awsstudygroup.com> <br><br> <https://000044.awsstudygroup.com/> |
-| 6 | - **Hoạt động nhóm:** <br>&emsp; + Trao đổi ý tưởng workshop <br>&emsp; + Lên kế hoạch thực hiện <br>&emsp; + Phân chia công việc cho workshop | 04/07/2026 | 04/07/2026 | |
+| 2 | - Tìm hiểu nền tảng IAM: user, group, role, policy <br> - Hiểu policy evaluation: explicit deny, implicit deny, allow | 06/07/2026 | 06/07/2026 | <https://youtu.be/tsobAlSg19g?si=9f3mlIWPtrCcNuKg> <br><br> <https://youtu.be/N_vlJGAqZxo?si=e8oiWCObco95CoKh> |
+| 3 | - **Thực hành:** <br>&emsp; + Tạo user/group/role <br>&emsp; + Gán inline & managed policies <br>&emsp; + Kiểm tra quyền truy cập S3/EC2 theo các policy khác nhau <br> - Tìm hiểu permission boundaries và session policies | 07/07/2026 | 07/07/2026 | <https://000028.awsstudygroup.com> |
+| 4 | - Tìm hiểu AWS Organizations: cấu trúc OU, mô hình multi-account <br> - Hiểu khái niệm SCP, deny list và allow list | 08/07/2026 | 08/07/2026 | <https://youtu.be/5oQY8Rogz9Y?si=h8DlUb8ZLI4HbbvM> <br><br> <https://youtu.be/NW1xrMkNMjU?si=dhT0T3y2JYVK8QwT> |
+| 5 | - **Thực hành:** <br>&emsp; + Tạo Organization + OU <br>&emsp; + Áp dụng SCP deny EC2 / deny S3 <br>&emsp; + Kiểm tra hiệu lực SCP kết hợp với IAM policies <br>&emsp; + Sắp xếp lại OU, xóa SCP | 09/07/2026 | 09/07/2026 | <https://000030.awsstudygroup.com> <br><br> <https://000044.awsstudygroup.com/> |
+| 6 | - **Hoạt động nhóm:** <br>&emsp; + Trao đổi ý tưởng workshop <br>&emsp; + Lên kế hoạch thực hiện <br>&emsp; + Phân chia công việc cho workshop | 10/07/2026 | 10/07/2026 | |
 
 ### Kết quả đạt được tuần 7:
 

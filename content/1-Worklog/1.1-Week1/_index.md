@@ -1,6 +1,6 @@
 ---
 title: "Week 1 Worklog"
-date: "2026-05-23"
+date: "2026-05-29"
 weight: 1
 chapter: false
 pre: " <b> 1.1. </b> "
@@ -14,11 +14,11 @@ pre: " <b> 1.1. </b> "
 ### Tasks to be carried out this week:
 | Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Learn about the First Cloud AI Journey program <br> - Read the rules and prepare the learning environment                                                                                           | 19/05/2026 | 19/05/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 3   | - Learn about cloud computing and AWS <br> - Explore the main service groups: Compute, Storage, Database, Networking, Security                                                                        | 20/05/2026 | 20/05/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create an AWS account <br> - Learn about the AWS Management Console <br> - Install and configure AWS CLI <br> - **Practice:** <br>&emsp; + Sign in to AWS Console <br>&emsp; + Configure AWS CLI using an Access Key | 21/05/2026 | 21/05/2026      | <https://000001.awsstudygroup.com> |
-| 5   | - Learn about Amazon EC2 <br>&emsp; + Instance Types <br>&emsp; + Amazon Machine Image (AMI) <br>&emsp; + Amazon EBS <br>&emsp; + Security Group <br>&emsp; + Key Pair <br> - Learn about Elastic IP               | 22/05/2026 | 22/05/2026      | <https://000004.awsstudygroup.com> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect to EC2 via SSH <br>&emsp; + Manage Security Groups <br>&emsp; + Attach and verify an EBS volume                            | 23/05/2026 | 23/05/2026      | <https://000004.awsstudygroup.com> |
+| 2   | - Learn about the First Cloud AI Journey program <br> - Read the rules and prepare the learning environment                                                                                           | 25/05/2026 | 25/05/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 3   | - Learn about cloud computing and AWS <br> - Explore the main service groups: Compute, Storage, Database, Networking, Security                                                                        | 26/05/2026 | 26/05/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 4   | - Create an AWS account <br> - Learn about the AWS Management Console <br> - Install and configure AWS CLI <br> - **Practice:** <br>&emsp; + Sign in to AWS Console <br>&emsp; + Configure AWS CLI using an Access Key | 27/05/2026 | 27/05/2026      | <https://000001.awsstudygroup.com> |
+| 5   | - Learn about Amazon EC2 <br>&emsp; + Instance Types <br>&emsp; + Amazon Machine Image (AMI) <br>&emsp; + Amazon EBS <br>&emsp; + Security Group <br>&emsp; + Key Pair <br> - Learn about Elastic IP               | 28/05/2026 | 28/05/2026      | <https://000004.awsstudygroup.com> |
+| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect to EC2 via SSH <br>&emsp; + Manage Security Groups <br>&emsp; + Attach and verify an EBS volume                            | 29/05/2026 | 29/05/2026      | <https://000004.awsstudygroup.com> |
 
 
 ### Week 1 Achievements:

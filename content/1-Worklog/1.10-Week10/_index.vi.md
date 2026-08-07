@@ -1,6 +1,6 @@
 ---
 title: "Worklog Tuần 10"
-date: "2026-07-25"
+date: "2026-07-31"
 weight: 10
 chapter: false
 pre: " <b> 1.10. </b> "
@@ -17,11 +17,11 @@ pre: " <b> 1.10. </b> "
 
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | --------- | ------------ | --------------- | -------------- |
-| 2 | - Xem lại trang Settlement và tái hiện lỗi "mark as paid" <br> - Phân tích luồng dữ liệu settlement và group trên frontend <br> - Xác định nguyên nhân gốc của bug | 20/07/2026 | 20/07/2026 | |
-| 3 | - Sửa luồng "mark as paid" trong trang Settlement với commit `fix-mark-as-paid` <br>&emsp; + Sửa logic cập nhật trạng thái settlement <br>&emsp; + Cập nhật group types và service liên quan <br> - Tạo và merge Pull Request `#12` | 21/07/2026 | 21/07/2026 | |
-| 4 | - Sửa lỗi hiển thị avatar với commit `fix-avatar` <br>&emsp; + Cập nhật component Sidebar <br>&emsp; + Cập nhật trang Dashboard <br> - Reapply lại fix-mark-as-paid và fix-avatar sau khi revert | 22/07/2026 | 22/07/2026 | |
-| 5 | - Áp dụng fix avatar cuối cùng với commit `fix-avatar-2` <br> - Test luồng mark-as-paid và avatar sau khi sửa <br> - Kiểm tra trang Settlement và Dashboard hoạt động đúng | 23/07/2026 | 23/07/2026 | |
-| 6 | - Rà soát các thay đổi đã merge vào nhánh main <br> - Chạy regression test trên các màn hình bị ảnh hưởng <br> - Ghi nhận kết quả và chuẩn bị báo cáo tuần | 24/07/2026 | 24/07/2026 | |
+| 2 | - Xem lại trang Settlement và tái hiện lỗi "mark as paid" <br> - Phân tích luồng dữ liệu settlement và group trên frontend <br> - Xác định nguyên nhân gốc của bug | 27/07/2026 | 27/07/2026 | |
+| 3 | - Sửa luồng "mark as paid" trong trang Settlement với commit `fix-mark-as-paid` <br>&emsp; + Sửa logic cập nhật trạng thái settlement <br>&emsp; + Cập nhật group types và service liên quan <br> - Tạo và merge Pull Request `#12` | 28/07/2026 | 28/07/2026 | |
+| 4 | - Sửa lỗi hiển thị avatar với commit `fix-avatar` <br>&emsp; + Cập nhật component Sidebar <br>&emsp; + Cập nhật trang Dashboard <br> - Reapply lại fix-mark-as-paid và fix-avatar sau khi revert | 29/07/2026 | 29/07/2026 | |
+| 5 | - Áp dụng fix avatar cuối cùng với commit `fix-avatar-2` <br> - Test luồng mark-as-paid và avatar sau khi sửa <br> - Kiểm tra trang Settlement và Dashboard hoạt động đúng | 30/07/2026 | 30/07/2026 | |
+| 6 | - Rà soát các thay đổi đã merge vào nhánh main <br> - Chạy regression test trên các màn hình bị ảnh hưởng <br> - Ghi nhận kết quả và chuẩn bị báo cáo tuần | 31/07/2026 | 31/07/2026 | |
 
 ### Kết quả đạt được tuần 10:
 

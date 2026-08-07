@@ -1,6 +1,6 @@
 ---
 title: "Worklog Tuần 4"
-date: "2026-06-13"
+date: "2026-06-19"
 weight: 4
 chapter: false
 pre: " <b> 1.4. </b> "
@@ -15,11 +15,11 @@ pre: " <b> 1.4. </b> "
 
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | --------- | ------------ | --------------- | -------------- |
-| 2 | - Tìm hiểu nền tảng của VPC Peering: cách hoạt động, giới hạn, hành vi định tuyến <br> - Tìm hiểu khái niệm peering bên trong VPC | 09/06/2026 | 09/06/2026 | https://000019.awsstudygroup.com |
-| 3 | - **Thực hành:** <br>&emsp; + Tạo EC2 instances ở nhiều VPC và cấu hình định tuyến <br>&emsp; + Kiểm tra NACL và Security Group khi dùng peering <br>&emsp; + Hoàn thiện cấu hình peering | 10/06/2026 | 10/06/2026 | https://000019.awsstudygroup.com |
-| 4 | - Tìm hiểu Transit Gateway <br> - **Thực hành:** <br>&emsp; + Triển khai TGW <br>&emsp; + Thiết lập định tuyến giữa các VPC và TGW | 11/06/2026 | 11/06/2026 | https://000020.awsstudygroup.com |
-| 5 | - **Thực hành:** <br>&emsp; + Tạo kết nối Transit Gateway <br>&emsp; + Tạo TGW Route Table <br>&emsp; + Gán route của VPC vào TGW <br>&emsp; + Kiểm tra kết nối giữa nhiều VPC qua TGW | 02/10/2025 | 02/10/2025 | https://000020.awsstudygroup.com |
-|   | - Dọn dẹp toàn bộ tài nguyên lab <br> - Hệ thống lại kiến thức về Peering và Transit Gateway | 12/06/2026 | 12/06/2026 | https://000020.awsstudygroup.com |
+| 2 | - Tìm hiểu nền tảng của VPC Peering: cách hoạt động, giới hạn, hành vi định tuyến <br> - Tìm hiểu khái niệm peering bên trong VPC | 15/06/2026 | 15/06/2026 | https://000019.awsstudygroup.com |
+| 3 | - **Thực hành:** <br>&emsp; + Tạo EC2 instances ở nhiều VPC và cấu hình định tuyến <br>&emsp; + Kiểm tra NACL và Security Group khi dùng peering <br>&emsp; + Hoàn thiện cấu hình peering | 16/06/2026 | 16/06/2026 | https://000019.awsstudygroup.com |
+| 4 | - Tìm hiểu Transit Gateway <br> - **Thực hành:** <br>&emsp; + Triển khai TGW <br>&emsp; + Thiết lập định tuyến giữa các VPC và TGW | 17/06/2026 | 17/06/2026 | https://000020.awsstudygroup.com |
+| 5 | - **Thực hành:** <br>&emsp; + Tạo kết nối Transit Gateway <br>&emsp; + Tạo TGW Route Table <br>&emsp; + Gán route của VPC vào TGW <br>&emsp; + Kiểm tra kết nối giữa nhiều VPC qua TGW | 18/06/2026 | 18/06/2026 | https://000020.awsstudygroup.com |
+| 6 | - Dọn dẹp toàn bộ tài nguyên lab <br> - Hệ thống lại kiến thức về Peering và Transit Gateway | 19/06/2026 | 19/06/2026 | https://000020.awsstudygroup.com |
 
 ### Kết quả đạt được tuần 4:
 
