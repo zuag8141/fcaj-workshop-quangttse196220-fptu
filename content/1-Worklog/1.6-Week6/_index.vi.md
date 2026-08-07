@@ -22,7 +22,7 @@ pre: " <b> 1.6. </b> "
 
 ### Kết quả đạt được tuần 6:
 
-* Trong tuần này, tôi có cái nhìn rõ hơn về hệ sinh thái lưu trữ của AWS, bao gồm S3, Glacier, AWS Backup, Storage Gateway và các hệ thống file. Tôi tập trung nhiều vào thực hành để hiểu quy trình quản lý dữ liệu, backup/restore và cơ chế lưu trữ trong AWS.
+* Trong tuần này, nhóm có cái nhìn rõ hơn về hệ sinh thái lưu trữ của AWS, bao gồm S3, Glacier, AWS Backup, Storage Gateway và các hệ thống file. Phần lớn thời gian dành cho thực hành để hiểu quy trình quản lý dữ liệu, backup/restore và cơ chế lưu trữ trong AWS.
 
 * **Lý thuyết đã học:**
   * Khái niệm S3 Storage Class, Access Point và CORS.

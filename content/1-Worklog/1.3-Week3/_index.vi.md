@@ -33,7 +33,7 @@ pre: " <b> 1.3. </b> "
   * MariaDB
   * Microsoft SQL Server
 
-* Triển khai thành công một Amazon RDS Database Instance và kết nối đến cơ sở dữ liệu từ ứng dụng hoặc công cụ quản lý.
+* Tạo được một Amazon RDS instance và kết nối từ công cụ quản lý. Lần đầu bị timeout vì Security Group chưa mở cổng 3306, chỉnh inbound rule là kết nối được.
 
 * Hiểu vai trò của Backup, Snapshot và Multi-AZ trong việc đảm bảo tính sẵn sàng và an toàn dữ liệu.
 
@@ -56,4 +56,4 @@ pre: " <b> 1.3. </b> "
 
 * So sánh được sự khác nhau giữa Amazon EC2 và Amazon Lightsail về khả năng cấu hình, chi phí và mức độ quản trị.
 
-* Có khả năng lựa chọn dịch vụ cơ sở dữ liệu và nền tảng triển khai phù hợp với yêu cầu của từng ứng dụng.
+* Làm xong RDS với DynamoDB thì mình tự tin hơn một chút trong việc chọn DB cho bài toán đơn giản, dù ElastiCache vẫn còn mơ hồ.

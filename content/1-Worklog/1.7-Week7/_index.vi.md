@@ -25,7 +25,7 @@ pre: " <b> 1.7. </b> "
 ### Kết quả đạt được tuần 7:
 
 * **Tổng kết:**
-  * Trong tuần này, tôi học nền tảng quản lý quyền truy cập trên AWS, bao gồm IAM và Organizations. Tôi hiểu cách policy evaluation hoạt động, cách viết JSON policy và cách SCP áp dụng trong môi trường nhiều tài khoản.
+  * Trong tuần này, nhóm học nền tảng quản lý quyền truy cập trên AWS, bao gồm IAM và Organizations. Qua thực hành, hiểu cách policy evaluation hoạt động, cách viết JSON policy và cách SCP áp dụng trong môi trường nhiều tài khoản.
 
 * **Lý thuyết đã học:**
   * Khái niệm User – Group – Role – Policy và cách evaluation hoạt động

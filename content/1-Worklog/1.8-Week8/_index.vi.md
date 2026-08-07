@@ -24,7 +24,7 @@ pre: " <b> 1.8. </b> "
 ### Kết quả đạt được tuần 8:
 
 * **Tổng quan:**
-  * Tuần này tôi tập trung vào các dịch vụ database và data analytics của AWS, gồm RDS, Aurora, DynamoDB, DMS, Kinesis, Glue, Athena, và QuickSight. Tôi hiểu rõ hơn kiến trúc database, kết nối, backup/restore, autoscaling và quy trình analytics từ ingestion đến visualization.
+  * Tuần này nhóm tập trung vào các dịch vụ database và data analytics của AWS, gồm RDS, Aurora, DynamoDB, DMS, Kinesis, Glue, Athena, và QuickSight. Qua thực hành, nắm rõ hơn kiến trúc database, kết nối, backup/restore, autoscaling và quy trình analytics từ ingestion đến visualization.
 
 * **Lý thuyết đã học:**
   * Khái niệm RDS, Aurora architecture, Multi-AZ, read replicas  

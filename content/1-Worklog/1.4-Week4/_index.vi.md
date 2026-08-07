@@ -25,7 +25,7 @@ pre: " <b> 1.4. </b> "
 ### Kết quả đạt được tuần 4:
 
 * **Tổng kết:**
-  * Trong tuần này, tôi tìm hiểu các mô hình kết nối nhiều VPC, bao gồm VPC Peering và Transit Gateway. Tôi hiểu rõ hơn cách hoạt động của kết nối liên VPC, cách định tuyến qua TGW và vai trò của từng thành phần trong kiến trúc đa VPC.
+  * Trong tuần này, nhóm tìm hiểu các mô hình kết nối nhiều VPC, bao gồm VPC Peering và Transit Gateway. Qua thực hành, nắm rõ hơn cách hoạt động của kết nối liên VPC, cách định tuyến qua TGW và vai trò của từng thành phần trong kiến trúc đa VPC.
 
 * **Lý thuyết đã học:**
   * Cách VPC Peering hoạt động và cách định tuyến giữa hai VPC.

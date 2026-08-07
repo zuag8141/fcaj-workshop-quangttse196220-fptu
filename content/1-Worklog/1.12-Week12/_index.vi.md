@@ -27,9 +27,9 @@ pre: " <b> 1.12. </b> "
 ### Kết quả đạt được tuần 12:
 
 * **Kết quả chung:**
-  * Tuần này tôi tập trung nghiên cứu, thiết kế và triển khai kiến trúc AWS cho môi trường phát triển và kiểm thử của dự án.
-  * Tôi hoàn thành sơ đồ kiến trúc bao gồm frontend, backend, storage, database, networking, security, monitoring và cost-management.
-  * Frontend và backend của dự án đã được triển khai lên AWS theo đúng kiến trúc đã thiết kế.
+  * Tuần này nhóm tập trung nghiên cứu, thiết kế và triển khai kiến trúc AWS cho môi trường phát triển và kiểm thử của dự án.
+  * Hoàn thành bản nháp sơ đồ kiến trúc gồm frontend, backend, storage, database, networking, security, monitoring và cost-management.
+  * Deploy xong frontend lên S3 và backend lên EC2 ở region `ap-southeast-1`. Lúc đầu upload ảnh bị chặn vì thiếu CORS giữa S3 và API, thêm header là chạy.
   * Hệ thống có thể kết nối tới MongoDB Atlas, lưu ảnh receipt vào S3 và được giám sát qua CloudWatch.
 
 * **Kiến trúc đã thiết kế:**

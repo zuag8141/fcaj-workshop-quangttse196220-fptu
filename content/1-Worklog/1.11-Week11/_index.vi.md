@@ -28,9 +28,9 @@ pre: " <b> 1.11. </b> "
 ### Kết quả đạt được tuần 11:
 
 * **Kết quả chung:**
-  * Tuần này tôi tập trung phát triển backend notification và các tính năng quản lý complaint.
+  * Tuần này nhóm tập trung phát triển backend notification và các tính năng quản lý complaint.
   * Hệ thống notification được mở rộng để hỗ trợ group membership changes, expense creation, payment submission, settlement reminders và product updates.
-  * Tôi cũng triển khai hoàn chỉnh flow complaint cho cả user gửi complaint và admin xử lý complaint.
+  * Flow complaint được triển khai hoàn chỉnh cho cả user gửi complaint và admin xử lý complaint.
   * Các thay đổi của module notification được tích hợp vào dự án thông qua Pull Request `#14` và `#15`.
 
 * **Tính năng notification đã hoàn thành:**

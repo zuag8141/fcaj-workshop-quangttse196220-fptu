@@ -27,8 +27,8 @@ pre: " <b> 1.10. </b> "
 ### Kết quả đạt được tuần 10:
 
 * **Kết quả chung:**
-  * Tuần này tôi tham gia phát triển backend và đóng góp các thay đổi liên quan đến xác nhận thanh toán, notification preferences và giới hạn thành viên cho nhóm free plan.
-  * Tôi hoàn thành các chức năng được giao, sửa lỗi, đồng bộ source code và tạo pull request để tích hợp thay đổi vào nhánh chính của dự án.
+  * Tuần này nhóm tham gia phát triển backend và đóng góp các thay đổi liên quan đến xác nhận thanh toán, notification preferences và giới hạn thành viên cho nhóm free plan.
+  * Các chức năng được giao đã hoàn thành, gồm sửa lỗi, đồng bộ source code và tạo pull request để tích hợp thay đổi vào nhánh chính của dự án.
   * Tổng cộng có 4 pull request được merge, bao gồm `#8`, `#9`, `#10` và `#11`.
 
 * **Chức năng đã hoàn thành:**

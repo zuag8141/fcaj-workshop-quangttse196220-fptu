@@ -32,7 +32,7 @@ pre: " <b> 1.1. </b> "
   * Security
   * Management & Monitoring
 
-* Tạo thành công tài khoản AWS và kích hoạt môi trường Free Tier phục vụ học tập.
+* Đăng ký tài khoản AWS miễn phí để thực hành. Hơi lúng túng ở bước xác minh thanh toán, nhưng xong là vào được console.
 
 * Làm quen với AWS Management Console và biết cách:
   * Tìm kiếm dịch vụ.
@@ -63,8 +63,8 @@ pre: " <b> 1.1. </b> "
   * Key Pair
   * Elastic IP
 
-* Triển khai thành công một EC2 Instance và kết nối đến máy chủ thông qua SSH.
+* Tạo được một EC2 `t2.micro` và SSH vào thành công. Lần đầu bị `permission denied` vì file key pair để sai quyền, nhớ ra phải `chmod 400` là chạy.
 
 * Thực hiện thao tác gắn EBS Volume và kiểm tra trạng thái hoạt động của Instance.
 
-* Bước đầu hình thành quy trình quản lý tài nguyên AWS thông qua cả AWS Management Console và AWS CLI.
+* Bắt đầu quen dần với việc quản lý tài nguyên AWS qua cả AWS Management Console và AWS CLI.

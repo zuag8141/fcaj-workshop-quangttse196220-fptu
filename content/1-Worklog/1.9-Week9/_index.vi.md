@@ -27,9 +27,9 @@ pre: " <b> 1.9. </b> "
 ### Kết quả đạt được tuần 9:
 
 * **Kết quả chung:**
-  * Tuần này tôi tập trung nghiên cứu và thiết kế kiến trúc AWS cho việc triển khai dự án.
+  * Tuần này nhóm tập trung nghiên cứu và thiết kế kiến trúc AWS cho việc triển khai dự án.
   * Kiến trúc bao gồm các thành phần cho phân phối frontend, host backend, lưu trữ ảnh, kết nối database, giám sát hệ thống và quản lý chi phí.
-  * Tôi hiểu rõ hơn luồng hoạt động của hệ thống, từ lúc người dùng truy cập đến khi request được xử lý và dữ liệu được lưu ở các dịch vụ tương ứng.
+  * Vẽ được bản nháp kiến trúc cho dự án (frontend trên S3, backend EC2, DB MongoDB Atlas). Phần monitoring và cost mới ghi sơ, cần bổ sung sau.
 
 * **Kiến thức đã học:**
   * Route 53 dùng để quản lý domain và điều hướng người dùng.

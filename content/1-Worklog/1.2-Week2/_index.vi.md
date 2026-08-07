@@ -58,6 +58,6 @@ pre: " <b> 1.2. </b> "
 
 * Có kiến thức cơ bản về Lambda@Edge và khả năng xử lý request tại Edge Location.
 
-* Triển khai thành công website tĩnh bằng Amazon S3 kết hợp Amazon CloudFront và kiểm tra khả năng truy cập từ trình duyệt.
+* Deploy website tĩnh lên S3 và bật CloudFront. Lúc đầu mở URL S3 bị 403, sửa bucket policy cho phép public access là truy cập được.
 
-* Bước đầu hiểu cách kết hợp nhiều dịch vụ AWS để xây dựng một hệ thống web có khả năng mở rộng và phân phối nội dung hiệu quả.
+* Bước đầu hiểu cách phối hợp vài dịch vụ AWS để dựng website tĩnh phân phối qua CDN.

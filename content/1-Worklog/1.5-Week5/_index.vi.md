@@ -23,7 +23,7 @@ pre: " <b> 1.5. </b> "
 
 ### Kết quả đạt được tuần 5:
 
-* Trong tuần này, tôi học cách EC2 hoạt động, các kiểu storage của instance, Auto Scaling và cơ chế backup. Tôi cũng thực hành Storage Gateway và triển khai website tĩnh trên S3.
+* Trong tuần này, nhóm học cách EC2 hoạt động, các kiểu storage của instance, Auto Scaling và cơ chế backup. Cũng thực hành Storage Gateway và triển khai website tĩnh trên S3.
 
 * **Lý thuyết đã học:**
   * Kiến trúc EC2, AMI, key pair
