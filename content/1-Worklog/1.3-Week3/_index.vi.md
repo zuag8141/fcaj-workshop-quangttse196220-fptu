@@ -1,7 +1,7 @@
 ---
 title: "Worklog Tuần 3"
 date: "2026-06-06"
-weight: 1
+weight: 3
 chapter: false
 pre: " <b> 1.3. </b> "
 ---
@@ -17,9 +17,9 @@ pre: " <b> 1.3. </b> "
 
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | --------- | ------------ | --------------- | -------------- |
-| 2 | - Tìm hiểu Amazon Relational Database Service (RDS) <br>&emsp; + Database Engine <br>&emsp; + DB Instance <br>&emsp; + Backup & Snapshot <br>&emsp; + Multi-AZ | 02/06/2026 | 02/06/2026 | https://cloudjourney.awsstudygroup.com/ |
-| 3 | - **Thực hành:** <br>&emsp; + Khởi tạo Amazon RDS <br>&emsp; + Kết nối cơ sở dữ liệu từ ứng dụng hoặc SQL Client <br>&emsp; + Thực hiện các thao tác CRUD cơ bản | 03/06/2026 | 03/06/2026 | https://cloudjourney.awsstudygroup.com/ |
-| 4 | - Tìm hiểu Amazon DynamoDB <br>&emsp; + Table <br>&emsp; + Partition Key <br>&emsp; + Sort Key <br>&emsp; + Capacity Mode <br> - Thực hành tạo bảng và thao tác dữ liệu | 04/06/2026 | 04/06/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 2 | - Tìm hiểu Amazon Relational Database Service (RDS) <br>&emsp; + Database Engine <br>&emsp; + DB Instance <br>&emsp; + Backup & Snapshot <br>&emsp; + Multi-AZ | 02/06/2026 | 02/06/2026 | https://000005.awsstudygroup.com |
+| 3 | - **Thực hành:** <br>&emsp; + Khởi tạo Amazon RDS <br>&emsp; + Kết nối cơ sở dữ liệu từ ứng dụng hoặc SQL Client <br>&emsp; + Thực hiện các thao tác CRUD cơ bản | 03/06/2026 | 03/06/2026 | https://000005.awsstudygroup.com |
+| 4 | - Tìm hiểu Amazon DynamoDB <br>&emsp; + Table <br>&emsp; + Partition Key <br>&emsp; + Sort Key <br>&emsp; + Capacity Mode <br> - Thực hành tạo bảng và thao tác dữ liệu | 04/06/2026 | 04/06/2026 | https://000039.awsstudygroup.com |
 | 5 | - Tìm hiểu Amazon ElastiCache <br>&emsp; + Redis <br>&emsp; + Memcached <br> - Tìm hiểu Amazon Lightsail và Amazon Lightsail Containers | 05/06/2026 | 05/06/2026 | https://cloudjourney.awsstudygroup.com/ |
 | 6 | - **Thực hành:** <br>&emsp; + Triển khai ứng dụng trên Amazon Lightsail <br>&emsp; + Làm quen với Lightsail Containers <br>&emsp; + So sánh Lightsail và EC2 | 06/06/2026 | 06/06/2026 | https://cloudjourney.awsstudygroup.com/ |
 
@@ -33,7 +33,7 @@ pre: " <b> 1.3. </b> "
   * MariaDB
   * Microsoft SQL Server
 
-* Tạo được một Amazon RDS instance và kết nối từ công cụ quản lý. Lần đầu bị timeout vì Security Group chưa mở cổng 3306, chỉnh inbound rule là kết nối được.
+* Triển khai thành công một Amazon RDS Database Instance và kết nối đến cơ sở dữ liệu từ ứng dụng hoặc công cụ quản lý.
 
 * Hiểu vai trò của Backup, Snapshot và Multi-AZ trong việc đảm bảo tính sẵn sàng và an toàn dữ liệu.
 
@@ -56,4 +56,4 @@ pre: " <b> 1.3. </b> "
 
 * So sánh được sự khác nhau giữa Amazon EC2 và Amazon Lightsail về khả năng cấu hình, chi phí và mức độ quản trị.
 
-* Làm xong RDS với DynamoDB thì mình tự tin hơn một chút trong việc chọn DB cho bài toán đơn giản, dù ElastiCache vẫn còn mơ hồ.
+* Có khả năng lựa chọn dịch vụ cơ sở dữ liệu và nền tảng triển khai phù hợp với yêu cầu của từng ứng dụng.
