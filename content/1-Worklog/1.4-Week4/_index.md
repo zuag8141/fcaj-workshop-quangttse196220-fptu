@@ -20,7 +20,6 @@ pre: " <b> 1.4. </b> "
 | 4   | - Learn about Transit Gateway <br> - **Hands-on:** <br>&emsp; + Deploy a TGW <br>&emsp; + Set up routing between VPCs and the TGW                                                                                 | 11/06/2026 | 11/06/2026 | <https://000020.awsstudygroup.com> |
 | 5   | - **Hands-on:** <br>&emsp; + Create a Transit Gateway connection <br>&emsp; + Create a TGW Route Table <br>&emsp; + Map VPC routes to the TGW <br>&emsp; + Final connectivity check between multiple VPCs via TGW | 02/10/2025 | 02/10/2025 | <https://000020.awsstudygroup.com> |
 |     | - Clean up all lab resources <br> - Consolidate knowledge of Peering and Transit Gateway                                                                                                                          | 12/06/2026 | 12/06/2026 | <https://000020.awsstudygroup.com> |
-| 6   |                                                                                                                                                                                                                   | 13/06/2026 | 13/06/2026 |                                    |
 
 
 ### Week 4 Achievements:

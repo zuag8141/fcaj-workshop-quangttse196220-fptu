@@ -20,7 +20,6 @@ pre: " <b> 1.4. </b> "
 | 4 | - Tìm hiểu Transit Gateway <br> - **Thực hành:** <br>&emsp; + Triển khai TGW <br>&emsp; + Thiết lập định tuyến giữa các VPC và TGW | 11/06/2026 | 11/06/2026 | https://000020.awsstudygroup.com |
 | 5 | - **Thực hành:** <br>&emsp; + Tạo kết nối Transit Gateway <br>&emsp; + Tạo TGW Route Table <br>&emsp; + Gán route của VPC vào TGW <br>&emsp; + Kiểm tra kết nối giữa nhiều VPC qua TGW | 02/10/2025 | 02/10/2025 | https://000020.awsstudygroup.com |
 |   | - Dọn dẹp toàn bộ tài nguyên lab <br> - Hệ thống lại kiến thức về Peering và Transit Gateway | 12/06/2026 | 12/06/2026 | https://000020.awsstudygroup.com |
-| 6 |  | 13/06/2026 | 13/06/2026 | |
 
 ### Kết quả đạt được tuần 4:
 
