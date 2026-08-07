@@ -1,19 +1,52 @@
 ---
 title : "Giới thiệu"
-date : 2024-01-01 
+date : 2026-08-01
 weight : 1
 chapter : false
 pre : " <b> 5.1. </b> "
 ---
 
-#### Giới thiệu về VPC Endpoint
+#### Giới thiệu về Splitly
 
-+ Điểm cuối VPC (endpoint) là thiết bị ảo. Chúng là các thành phần VPC có thể mở rộng theo chiều ngang, dự phòng và có tính sẵn sàng cao. Chúng cho phép giao tiếp giữa tài nguyên điện toán của bạn và dịch vụ AWS mà không gây ra rủi ro về tính sẵn sàng.
-+ Tài nguyên điện toán đang chạy trong VPC có thể truy cập Amazon S3 bằng cách sử dụng điểm cuối Gateway. Interface Endpoint  PrivateLink có thể được sử dụng bởi tài nguyên chạy trong VPC hoặc tại TTDL.
+* **Splitly** là nền tảng quản lý và chia sẻ chi phí nhóm, giúp người dùng theo dõi các khoản chi tiêu chung, tính toán số tiền mỗi thành viên cần trả và quản lý lịch sử giao dịch một cách minh bạch.
 
-#### Tổng quan về workshop
-Trong workshop này, bạn sẽ sử dụng hai VPC.
-+ **"VPC Cloud"** dành cho các tài nguyên cloud như Gateway endpoint và EC2 instance để kiểm tra.
-+ **"VPC On-Prem"** mô phỏng môi trường truyền thống như nhà máy hoặc trung tâm dữ liệu của công ty. Một EC2 Instance chạy phần mềm StrongSwan VPN đã được triển khai trong "VPC On-prem" và được cấu hình tự động để thiết lập đường hầm VPN Site-to-Site với AWS Transit Gateway. VPN này mô phỏng kết nối từ một vị trí tại TTDL (on-prem) với AWS cloud. Để giảm thiểu chi phí, chỉ một phiên bản VPN được cung cấp để hỗ trợ workshop này. Khi lập kế hoạch kết nối VPN cho production workloads của bạn, AWS khuyên bạn nên sử dụng nhiều thiết bị VPN để có tính sẵn sàng cao.
+* Hệ thống dùng kiến trúc web hiện đại: frontend **React + Vite**, backend **Node.js/Express** và cơ sở dữ liệu **MongoDB Atlas**. Ứng dụng được triển khai trên AWS để tận dụng khả năng mở rộng, bảo mật và giám sát.
 
-![overview](/fcaj-workshop-quangttse196220-fptu/images/5-Workshop/5.1-Workshop-overview/diagram1.png)
+* **Amazon EC2** lưu trữ backend API và frontend, **Amazon S3** lưu hóa đơn và biên lai, còn **Amazon CloudWatch** thu thập log và giám sát hệ thống. **Amazon VPC** và **Security Group** đảm bảo kết nối mạng an toàn giữa các thành phần.
+
+#### Tổng quan về hệ thống
+
+Hệ thống Splitly gồm các thành phần chính:
+
+* **Frontend Application**
+
+  * Xây dựng bằng React + Vite.
+  * Cung cấp giao diện quản lý nhóm, khoản chi và trạng thái thanh toán.
+
+* **Backend Application**
+
+  * Dùng Node.js/Express để cung cấp REST API.
+  * Xử lý nghiệp vụ như tạo nhóm, quản lý expense, tính toán settlement và xác thực người dùng.
+
+* **Database**
+
+  * Dùng MongoDB Atlas để lưu người dùng, nhóm, giao dịch và lịch sử thanh toán.
+
+* **Cloud Storage**
+
+  * Amazon S3 lưu hình ảnh, hóa đơn điện tử và biên lai người dùng tải lên.
+
+* **Monitoring & Security**
+
+  * Amazon CloudWatch thu thập log và giám sát hệ thống.
+  * Amazon VPC, Security Group và AWS IAM kiểm soát kết nối mạng và quyền truy cập tài nguyên.
+
+Kiến trúc nâng cấp giúp Splitly cải thiện **hiệu suất**, **bảo mật** và **khả năng mở rộng** nhờ tách riêng frontend và backend:
+
++ Frontend được lưu trên **Amazon S3** và phân phối qua **Amazon CloudFront**.
++ **Amazon Route 53** quản lý tên miền.
++ **AWS Certificate Manager** cung cấp chứng chỉ SSL/TLS cho HTTPS.
++ **AWS WAF** bảo vệ ứng dụng khỏi các yêu cầu độc hại.
++ Backend tiếp tục chạy trên **Amazon EC2** và kết nối với **MongoDB Atlas**.
+
+Kiến trúc này tạo nền tảng để mở rộng backend và tích hợp thêm dịch vụ AWS trong tương lai mà không cần thay đổi lớn.
